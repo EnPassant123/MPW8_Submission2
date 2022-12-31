@@ -1,4 +1,4 @@
-** sch_path: /home/eggert/caravel_user_project_analog/xschem/mpw8.sch
+
 .subckt mpw8 gpio_analog[12] gpio_analog[9] gpio_analog[10] io_in[15] io_out[13] gpio_analog[5]
 + gpio_analog[0] gpio_analog[1] io_out[9] gpio_analog[13] io_in[10] gpio_analog[5] gpio_analog[13] gpio_analog[4]
 + vssd1 vssd1 vssd1 vssd1 vssd1 vssd1 vssd1 vssd1 vssd1 vssd1 vssd1 vssd1 vssd1 vssd1 vssd1 vssd1 vssd1
@@ -107,37 +107,7 @@ x6 gpio_analog[1] vssd1 vssd1 vdda1 vdda1 io_out[9] sky130_fd_sc_hd__clkbuf_16
 XC4 gpio_analog[12] net1 sky130_fd_pr__cap_mim_m3_1 W=24.8 L=24.8 MF=4 m=4
 XC7 vdda1 vssd1 sky130_fd_pr__cap_mim_m3_1 W=30 L=30 MF=10 m=10
 XC11 gpio_analog[11] vssd1 sky130_fd_pr__cap_mim_m3_1 W=30 L=30 MF=10 m=10
-**** begin user architecture code
 
-
-**.include "/home/eggert/caravel_user_project_analog/xschem/analogsub.spice"
-**.include "/home/eggert/caravel_user_project_analog/xschem/gilbert.spice"
-**.include "/home/eggert/caravel_user_project_analog/xschem/filter.spice"
-**.include "/home/eggert/caravel_user_project_analog/xschem/opamp.spice"
-**.include "/home/eggert/caravel_user_project_analog/xschem/vco.spice"
-**.include "/home/eggert/caravel_user_project_analog/xschem/clkdiv.spice"
-**.include "/home/eggert/caravel_user_project_analog/xschem/phasecmp.spice"
-**.include "/home/eggert/caravel_user_project_analog/xschem/quadgen.spice"
-
-**.ic v(CTRL_IC)=0.9
-**.ic v(CTRL_IC2)=0.9
-**.ic v(CTRL)=0.9
-
-.option wnflag=1
-.param x=4.25
-.param l=30
-vvcc vcc 0 dc 1.8
-vvss vss 0 0
-.control
-tran 30p 15u 13u
-write sim.raw
-.endc
-
-
-** .lib /usr/local/share/pdk/sky130A/libs.tech/ngspice/sky130.lib.spice tt
-**.include /usr/local/share/pdk/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_fd_sc_hd.spice
-
-**** end user architecture code
 .ends
 .GLOBAL GND
 .end
