@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1672367450
+timestamp 1672466611
 << nwell >>
 rect 3951 3010 4754 3331
 << pwell >>
@@ -444,17 +444,16 @@ rect 490 2601 550 2610
 rect 2990 2601 3050 2610
 rect 2981 1430 2990 1490
 rect 3050 1430 3370 1490
+rect 3310 1392 3370 1430
 rect 655 1350 805 1359
 rect 2995 1350 3145 1359
 rect 2989 1200 2995 1350
 rect 3145 1200 3151 1350
+rect 3303 1336 3312 1392
+rect 3368 1336 3377 1392
+rect 3310 1334 3370 1336
 rect 655 1191 805 1200
 rect 2995 1191 3145 1200
-rect 3310 1178 3370 1430
-rect 3310 1122 3312 1178
-rect 3368 1122 3370 1178
-rect 3310 1120 3370 1122
-rect 3312 1113 3368 1120
 << via2 >>
 rect 1330 2686 1390 2690
 rect 2100 2686 2160 2690
@@ -479,7 +478,7 @@ rect 2990 2610 3050 2614
 rect 2990 1430 3050 1490
 rect 655 1200 805 1350
 rect 2995 1200 3145 1350
-rect 3312 1122 3368 1178
+rect 3312 1336 3368 1392
 << metal3 >>
 rect 1325 2690 1395 2695
 rect 485 2670 555 2675
@@ -510,15 +509,15 @@ rect 2985 1490 3055 1495
 rect 2985 1430 2990 1490
 rect 3050 1430 3055 1490
 rect 2985 1425 3055 1430
+rect 3307 1392 3373 1397
 rect 2990 1350 3150 1355
 rect 2990 1345 2995 1350
 rect 3145 1345 3150 1350
+rect 3307 1336 3312 1392
+rect 3368 1336 3373 1392
+rect 3307 1331 3373 1336
 rect 2990 1189 3150 1195
-rect 3307 1178 3373 1183
-rect 3307 1122 3312 1178
-rect 3368 1122 3373 1178
-rect 3307 1117 3373 1122
-rect 3310 850 3370 1117
+rect 3310 850 3370 1331
 << via3 >>
 rect 650 1200 655 1345
 rect 655 1200 805 1345
@@ -546,131 +545,131 @@ rect 280 340 960 400
 rect 2650 370 3550 430
 rect 370 330 880 340
 use sky130_fd_pr__cap_mim_m3_1_9SN4GA  XC29
-timestamp 1672355014
+timestamp 1672466611
 transform 0 -1 1265 1 0 411
 box -610 -464 610 464
 use sky130_fd_pr__cap_mim_m3_1_9SN4GA  XC30
-timestamp 1672355014
+timestamp 1672466611
 transform 0 -1 2465 1 0 411
 box -610 -464 610 464
 use sky130_fd_pr__nfet_01v8_Q8AFGD  XM19
-timestamp 1672367450
+timestamp 1672466611
 transform 1 0 -1187 0 1 1712
 box -212 -310 212 310
 use sky130_fd_pr__nfet_01v8_Q8AFGD  XM80
-timestamp 1672367450
+timestamp 1672466611
 transform 1 0 -587 0 1 1712
 box -212 -310 212 310
 use sky130_fd_pr__pfet_01v8_8DZSMJ  XM81
-timestamp 1672367450
+timestamp 1672466611
 transform 1 0 -587 0 1 4719
 box -212 -319 212 319
 use sky130_fd_pr__pfet_01v8_8DZSMJ  XM82
-timestamp 1672367450
+timestamp 1672466611
 transform 1 0 232 0 1 4719
 box -212 -319 212 319
 use sky130_fd_pr__pfet_01v8_8DZSMJ  XM83
-timestamp 1672367450
+timestamp 1672466611
 transform 1 0 213 0 1 3719
 box -212 -319 212 319
 use sky130_fd_pr__nfet_01v8_Q8AFGD  XM85
-timestamp 1672367450
+timestamp 1672466611
 transform 1 0 213 0 1 1712
 box -212 -310 212 310
 use sky130_fd_pr__nfet_01v8_Q8AFGD  XM86
-timestamp 1672367450
+timestamp 1672466611
 transform 1 0 213 0 1 2712
 box -212 -310 212 310
 use sky130_fd_pr__pfet_01v8_8DZSMJ  XM87
-timestamp 1672367450
+timestamp 1672466611
 transform 1 0 1013 0 1 4719
 box -212 -319 212 319
 use sky130_fd_pr__pfet_01v8_8DZSMJ  XM88
-timestamp 1672367450
+timestamp 1672466611
 transform 1 0 1013 0 1 3719
 box -212 -319 212 319
 use sky130_fd_pr__nfet_01v8_Q8AFGD  XM90
-timestamp 1672367450
+timestamp 1672466611
 transform 1 0 1013 0 1 2712
 box -212 -310 212 310
 use sky130_fd_pr__nfet_01v8_Q8AFGD  XM91
-timestamp 1672367450
+timestamp 1672466611
 transform 1 0 1013 0 1 1712
 box -212 -310 212 310
 use sky130_fd_pr__pfet_01v8_8DZSMJ  XM92
-timestamp 1672367450
+timestamp 1672466611
 transform 1 0 1813 0 1 4719
 box -212 -319 212 319
 use sky130_fd_pr__pfet_01v8_8DZSMJ  XM93
-timestamp 1672367450
+timestamp 1672466611
 transform 1 0 1813 0 1 3719
 box -212 -319 212 319
 use sky130_fd_pr__nfet_01v8_Q8AFGD  XM95
-timestamp 1672367450
+timestamp 1672466611
 transform 1 0 1813 0 1 2712
 box -212 -310 212 310
 use sky130_fd_pr__nfet_01v8_Q8AFGD  XM96
-timestamp 1672367450
+timestamp 1672466611
 transform 1 0 1813 0 1 1712
 box -212 -310 212 310
 use sky130_fd_pr__pfet_01v8_8DZSMJ  XM97
-timestamp 1672367450
+timestamp 1672466611
 transform 1 0 2613 0 1 4719
 box -212 -319 212 319
 use sky130_fd_pr__pfet_01v8_8DZSMJ  XM98
-timestamp 1672367450
+timestamp 1672466611
 transform 1 0 2613 0 1 3719
 box -212 -319 212 319
 use sky130_fd_pr__nfet_01v8_Q8AFGD  XM100
-timestamp 1672367450
+timestamp 1672466611
 transform 1 0 2613 0 1 2712
 box -212 -310 212 310
 use sky130_fd_pr__pfet_01v8_8DZSMJ  XM102
-timestamp 1672367450
+timestamp 1672466611
 transform 1 0 3413 0 1 4719
 box -212 -319 212 319
 use sky130_fd_pr__nfet_01v8_Q8AFGD  XM105
-timestamp 1672367450
+timestamp 1672466611
 transform 1 0 3413 0 1 2712
 box -212 -310 212 310
 use sky130_fd_pr__pfet_01v8_lvt_D3C9B3  XM107
-timestamp 1672367450
+timestamp 1672466611
 transform 1 0 -1967 0 1 5469
 box -232 -269 232 269
 use sky130_fd_pr__res_xhigh_po_0p69_ET3NLF  XR38
-timestamp 1672367450
+timestamp 1672466611
 transform 1 0 -1965 0 1 3231
 box -235 -1829 235 1829
 use sky130_fd_pr__res_xhigh_po_0p35_H4KU7R  XR40
-timestamp 1672367450
+timestamp 1672466611
 transform 1 0 -1199 0 1 4201
 box -201 -1999 201 1999
 use sky130_fd_pr__cap_mim_m3_1_9SN4GA  sky130_fd_pr__cap_mim_m3_1_9SN4GA_0
-timestamp 1672355014
+timestamp 1672466611
 transform 0 -1 3665 1 0 411
 box -610 -464 610 464
 use sky130_fd_pr__cap_mim_m3_1_9SN4GA  sky130_fd_pr__cap_mim_m3_1_9SN4GA_1
-timestamp 1672355014
+timestamp 1672466611
 transform 0 -1 65 1 0 411
 box -610 -464 610 464
 use sky130_fd_pr__nfet_01v8_Q8AFGD  sky130_fd_pr__nfet_01v8_Q8AFGD_0
-timestamp 1672367450
+timestamp 1672466611
 transform 1 0 2613 0 1 1712
 box -212 -310 212 310
 use sky130_fd_pr__nfet_01v8_Q8AFGD  sky130_fd_pr__nfet_01v8_Q8AFGD_1
-timestamp 1672367450
+timestamp 1672466611
 transform 1 0 3413 0 1 1712
 box -212 -310 212 310
 use sky130_fd_pr__pfet_01v8_8DZSMJ  sky130_fd_pr__pfet_01v8_8DZSMJ_0
-timestamp 1672367450
+timestamp 1672466611
 transform 1 0 3413 0 1 3719
 box -212 -319 212 319
 use sky130_fd_sc_hd__tapvpwrvgnd_1  sky130_fd_sc_hd__tapvpwrvgnd_1_0 $PDKPATH/libs.ref/sky130_fd_sc_hd/mag
-timestamp 1669390400
+timestamp 1672466611
 transform -1 0 4716 0 -1 3600
 box -38 -48 130 592
 use sky130_fd_sc_hd__clkbuf_1  x4 $PDKPATH/libs.ref/sky130_fd_sc_hd/mag
-timestamp 1669390400
+timestamp 1672466611
 transform -1 0 4234 0 -1 3592
 box -38 -48 314 592
 << labels >>

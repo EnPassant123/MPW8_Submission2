@@ -1,19 +1,16 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1672366774
+timestamp 1672466439
 << nwell >>
 rect -109 -691 790 -370
 rect 2471 -691 3420 -370
-rect 4430 -691 5080 -370
+rect 4430 -691 4744 -370
 rect -109 -770 212 -691
 rect -1860 -806 212 -770
 rect -1900 -1091 212 -806
-rect 4759 -1140 5080 -691
-rect 4499 -1370 5080 -1140
 rect 2471 -1691 3630 -1370
-rect 4335 -1461 5080 -1370
-rect 4335 -1691 4820 -1461
+rect 4335 -1691 4470 -1370
 << pwell >>
 rect 319 -971 781 -789
 rect 2560 -931 3451 -749
@@ -260,43 +257,51 @@ rect 2373 -2097 2439 -2086
 rect -1545 -2163 2439 -2097
 rect 2988 -2098 3040 -2092
 use sky130_fd_pr__pfet_01v8_QP79FH  XM108
-timestamp 1672366774
+timestamp 1672466439
 transform 0 -1 6219 1 0 -787
 box -212 -1219 212 1219
 use sky130_fd_pr__nfet_01v8_A5ES5P  XM109
-timestamp 1672366774
+timestamp 1672466439
 transform 0 1 6210 -1 0 -1789
 box -211 -1210 211 1210
 use sky130_fd_pr__res_xhigh_po_5p73_WAQYE6  XR17
-timestamp 1672366774
+timestamp 1672466439
 transform 0 1 8714 -1 0 -1261
 box -739 -1114 739 1114
 use sky130_fd_sc_hd__tapvpwrvgnd_1  sky130_fd_sc_hd__tapvpwrvgnd_1_0 $PDKPATH/libs.ref/sky130_fd_sc_hd/mag
-timestamp 1672366774
+timestamp 1672466439
 transform 1 0 -1862 0 1 -1352
 box -38 -48 130 592
+use sky130_fd_sc_hd__tapvpwrvgnd_1  sky130_fd_sc_hd__tapvpwrvgnd_1_1
+timestamp 1672466439
+transform 1 0 2944 0 1 -946
+box -38 -48 130 592
+use sky130_fd_sc_hd__tapvpwrvgnd_1  sky130_fd_sc_hd__tapvpwrvgnd_1_2
+timestamp 1672466439
+transform 1 0 2850 0 1 -1950
+box -38 -48 130 592
 use sky130_fd_sc_hd__dfrbp_1  x28 $PDKPATH/libs.ref/sky130_fd_sc_hd/mag
-timestamp 1672366774
+timestamp 1672466439
 transform 1 0 638 0 1 -1952
 box -38 -48 2154 592
 use sky130_fd_sc_hd__dfrbp_1  x29
-timestamp 1672366774
+timestamp 1672466439
 transform 1 0 638 0 1 -952
 box -38 -48 2154 592
 use sky130_fd_sc_hd__bufbuf_8  x30 $PDKPATH/libs.ref/sky130_fd_sc_hd/mag
-timestamp 1672366774
+timestamp 1672466439
 transform 1 0 3238 0 1 -1952
 box -38 -48 1418 592
 use sky130_fd_sc_hd__clkdlybuf4s50_1  x31 $PDKPATH/libs.ref/sky130_fd_sc_hd/mag
-timestamp 1672366774
+timestamp 1672466439
 transform 1 0 -562 0 1 -1352
 box -38 -48 774 592
 use sky130_fd_sc_hd__nand2_1  x39 $PDKPATH/libs.ref/sky130_fd_sc_hd/mag
-timestamp 1672366774
+timestamp 1672466439
 transform 1 0 -1362 0 1 -1352
 box -38 -48 314 592
 use sky130_fd_sc_hd__bufbuf_8  x162
-timestamp 1672366774
+timestamp 1672466439
 transform 1 0 3238 0 1 -952
 box -38 -48 1418 592
 << labels >>

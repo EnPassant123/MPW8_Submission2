@@ -1,0 +1,143 @@
+** sch_path: /home/eggert/caravel_user_project_analog/xschem/mpw8.sch
+.subckt mpw8 gpio_analog[12] gpio_analog[9] gpio_analog[10] io_in[15] io_out[13] gpio_analog[5]
++ gpio_analog[0] gpio_analog[1] io_out[9] gpio_analog[13] io_in[10] gpio_analog[5] gpio_analog[13] gpio_analog[4]
++ vssd1 vssd1 vssd1 vssd1 vssd1 vssd1 vssd1 vssd1 vssd1 vssd1 vssd1 vssd1 vssd1 vssd1 vssd1 vssd1 vssd1
++ vssd1 vssd1 vssd1 vssd1 vssd1 vssd1 vssd1 vssd1 vssd1 vssd1 vssd1 vssd1 vssd1 vssd1 vssd1 vdda1 vdda1
++ vdda1 vdda1 vdda1 vdda1 vdda1 vdda1 vdda1 vdda1 vdda1 vdda1 vdda1 gpio_analog[11] gpio_analog[11]
++ gpio_analog[11] gpio_analog[11] gpio_analog[11] gpio_analog[11] gpio_analog[11] gpio_analog[11] gpio_analog[11]
++ gpio_analog[11] gpio_analog[11] gpio_analog[11] gpio_analog[11] gpio_analog[11] gpio_analog[11] gpio_analog[11]
++ io_in[10]
+*.PININFO gpio_analog[12]:I gpio_analog[9]:I gpio_analog[10]:I io_in[15]:I io_out[13]:I
+*+ gpio_analog[5]:I gpio_analog[0]:I gpio_analog[1]:I io_out[9]:I gpio_analog[13]:I io_in[10]:I gpio_analog[5]:I
+*+ gpio_analog[13]:I gpio_analog[4]:I vssd1:I vssd1:I vssd1:I vssd1:I vssd1:I vssd1:I vssd1:I vssd1:I vssd1:I vssd1:I
+*+ vssd1:I vssd1:I vssd1:I vssd1:I vssd1:I vssd1:I vssd1:I vssd1:I vssd1:I vssd1:I vssd1:I vssd1:I vssd1:I
+*+ vssd1:I vssd1:I vssd1:I vssd1:I vssd1:I vssd1:I vssd1:I vssd1:I vssd1:I vdda1:I vdda1:I vdda1:I vdda1:I
+*+ vdda1:I vdda1:I vdda1:I vdda1:I vdda1:I vdda1:I vdda1:I vdda1:I vdda1:I gpio_analog[11]:I gpio_analog[11]:I
+*+ gpio_analog[11]:I gpio_analog[11]:I gpio_analog[11]:I gpio_analog[11]:I gpio_analog[11]:I gpio_analog[11]:I
+*+ gpio_analog[11]:I gpio_analog[11]:I gpio_analog[11]:I gpio_analog[11]:I gpio_analog[11]:I gpio_analog[11]:I
+*+ gpio_analog[11]:I gpio_analog[11]:I io_in[10]:I
+XC2 IN_1 net3 sky130_fd_pr__cap_mim_m3_1 W=30 L=30 MF=10 m=10
+V4 __UNCONNECTED_PIN__0 GND SIN(0.9 1m 27000k)
+V8 __UNCONNECTED_PIN__1 __UNCONNECTED_PIN__2 1.8
+R21 gpio_analog[11] gpio_analog[12] 33k m=1
+XC9 net16 FILT_2 sky130_fd_pr__cap_mim_m3_1 W=30 L=30 MF=20 m=20
+XM45 vssd1 net2 net3 vdda1 sky130_fd_pr__pfet_01v8_lvt L=0.5 W=10 nf=1 ad='int((nf+1)/2) * W/nf * 0.29'
++ as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)'
++ nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
+XM49 net3 PB vdda1 vdda1 sky130_fd_pr__pfet_01v8_lvt L=0.5 W=10 nf=1 ad='int((nf+1)/2) * W/nf * 0.29'
++ as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)'
++ nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
+XM30 NB NB vssd1 vssd1 sky130_fd_pr__nfet_01v8_lvt L=0.5 W=3 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1
+XM29 PB PB vdda1 vdda1 sky130_fd_pr__pfet_01v8_lvt L=0.5 W=3 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1
+XM15 net5 PB vdda1 vdda1 sky130_fd_pr__pfet_01v8_lvt L=0.5 W=5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29'
++ as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)'
++ nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
+XM18 net5 net8 vssd1 vssd1 sky130_fd_pr__nfet_01v8_lvt L=0.5 W=10 nf=1 ad='int((nf+1)/2) * W/nf * 0.29'
++ as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)'
++ nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
+XC16 net2 net5 sky130_fd_pr__cap_mim_m3_1 W=30 L=30 MF=10 m=10
+XC17 PB vssd1 sky130_fd_pr__cap_mim_m3_1 W=30 L=30 MF=10 m=10
+XC18 NB vssd1 sky130_fd_pr__cap_mim_m3_1 W=30 L=30 MF=10 m=10
+R28 gpio_analog[9] gpio_analog[10] 10k m=1
+R30 gpio_analog[10] __UNCONNECTED_PIN__3 10k m=1
+XM14 net8 net8 net5 vdda1 sky130_fd_pr__pfet_01v8_lvt L=0.5 W=5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29'
++ as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)'
++ nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
+XC25 gpio_analog[13] net8 sky130_fd_pr__cap_mim_m3_1 W=30 L=30 MF=10 m=10
+XC26 vssd1 gpio_analog[11] sky130_fd_pr__cap_mim_m3_1 W=30 L=30 MF=10 m=10
+V2 __UNCONNECTED_PIN__4 __UNCONNECTED_PIN__5 0.9
+C32 gpio_analog[4] vssd1 1.165n m=1
+C33 gpio_analog[5] vssd1 117p m=1
+R9 gpio_analog[5] gpio_analog[4] 1k m=1
+R37 CTRL_IC2 gpio_analog[4] 658 m=1
+C34 CTRL_IC2 vssd1 7.128n m=1
+XC21 MIX_3 net11 sky130_fd_pr__cap_mim_m3_1 W=30 L=30 MF=10 m=10
+XC22 MIX_4 net7 sky130_fd_pr__cap_mim_m3_1 W=30 L=30 MF=10 m=10
+XR39 NB vdda1 vssd1 sky130_fd_pr__res_xhigh_po_0p35 L=10.5 mult=1 m=1
+XR27 vssd1 PB vssd1 sky130_fd_pr__res_xhigh_po_0p35 L=10.5 mult=1 m=1
+XR5 gpio_analog[11] vdda1 vssd1 sky130_fd_pr__res_xhigh_po_5p73 L=10 mult=1 m=1
+XR29 vssd1 gpio_analog[11] vssd1 sky130_fd_pr__res_xhigh_po_5p73 L=10 mult=1 m=1
+XR33 net2 gpio_analog[11] vssd1 sky130_fd_pr__res_xhigh_po_0p35 L=l mult=1 m=1
+XR32 gpio_analog[11] IN_1 vssd1 sky130_fd_pr__res_xhigh_po_0p35 L=l mult=1 m=1
+XR3 gpio_analog[11] MIX_3 vssd1 sky130_fd_pr__res_xhigh_po_0p35 L=l mult=1 m=1
+XR4 gpio_analog[11] MIX_4 vssd1 sky130_fd_pr__res_xhigh_po_0p35 L=l mult=1 m=1
+XR31 gpio_analog[11] net16 vssd1 sky130_fd_pr__res_xhigh_po_0p35 L=l mult=1 m=1
+XR36 net15 FILT_2_PH vssd1 sky130_fd_pr__res_xhigh_po_0p35 L=8.7 mult=1 m=1
+XR22 net1 net15 vssd1 sky130_fd_pr__res_xhigh_po_0p35 L=8.7 mult=1 m=1
+x1 vdda1 MIX_2 gpio_analog[11] MIX_1 vssd1 NB net4 analogsub
+x2 vdda1 MIX_4 gpio_analog[11] MIX_3 vssd1 NB net9 analogsub
+XC8 MIX_1 net10 sky130_fd_pr__cap_mim_m3_1 W=30 L=30 MF=10 m=10
+XR14 gpio_analog[11] MIX_1 vssd1 sky130_fd_pr__res_xhigh_po_0p35 L=l mult=1 m=1
+XC10 MIX_2 net6 sky130_fd_pr__cap_mim_m3_1 W=30 L=30 MF=10 m=10
+XR15 gpio_analog[11] MIX_2 vssd1 sky130_fd_pr__res_xhigh_po_0p35 L=30 mult=1 m=1
+x13 vdda1 MIX_B MIX_A IN_1 gpio_analog[11] net11 net7 NB PB vssd1 gilbert
+x14 vdda1 MIX_D MIX_C IN_1 gpio_analog[11] net10 net6 NB PB vssd1 gilbert
+x15 vdda1 net15 gpio_analog[12] FILT_2_PH vssd1 opamp
+x16 vdda1 gpio_analog[10] net14 gpio_analog[9] vssd1 opamp
+XC24 net14 net12 sky130_fd_pr__cap_mim_m3_1 W=30 L=30 MF=20 m=20
+XR25 gpio_analog[11] net14 vssd1 sky130_fd_pr__res_xhigh_po_0p35 L=l mult=1 m=1
+x3 vdda1 FILT_2_PH gpio_analog[11] net13 vssd1 NB net12 analogsub
+XC5 net13 FILT_1 sky130_fd_pr__cap_mim_m3_1 W=30 L=30 MF=20 m=20
+XR13 gpio_analog[11] net13 vssd1 sky130_fd_pr__res_xhigh_po_0p35 L=l mult=1 m=1
+x4 vdda1 gpio_analog[5] vssd1 net17 vco
+XM1 vssd1 net5 net8 vdda1 sky130_fd_pr__pfet_01v8_lvt L=0.5 W=5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29'
++ as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)'
++ nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
+x12 vdda1 net1 net16 net1 vssd1 opamp
+x17 vdda1 net4 FILT_1 PB vssd1 filter
+x18 vdda1 net9 FILT_2 PB vssd1 filter
+x1clkdiv vdda1 io_out[13] A vssd1 clkdiv
+x5 vdda1 A io_in[10] gpio_analog[4] vssd1 phasecmp
+V1 __UNCONNECTED_PIN__6 GND pulse 0 1.8 '0.495/ 4e6 ' '0.01/4e6 ' '0.01/4e6 ' '0.49/4e6 ' '1/4e6 '
+x1 vdda1 io_in[15] MIX_A MIX_B MIX_C MIX_D vssd1 quadgen
+C1 gpio_analog[9] 0 10p m=1
+XC3 vssd1 vdda1 sky130_fd_pr__cap_mim_m3_1 W=30 L=30 MF=10 m=10
+x79 net17 vssd1 vssd1 vdda1 vdda1 io_out[13] sky130_fd_sc_hd__clkbuf_16
+XM2 gpio_analog[1] gpio_analog[0] vssd1 vssd1 sky130_fd_pr__nfet_01v8 L=3 W=20 nf=1 ad='int((nf+1)/2) * W/nf * 0.29'
++ as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)'
++ nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
+XM27 gpio_analog[1] gpio_analog[0] vdda1 vdda1 sky130_fd_pr__pfet_01v8 L=3 W=20 nf=1 ad='int((nf+1)/2) * W/nf * 0.29'
++ as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)'
++ nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
+x6 gpio_analog[1] vssd1 vssd1 vdda1 vdda1 io_out[9] sky130_fd_sc_hd__clkbuf_16
+XC4 gpio_analog[12] net1 sky130_fd_pr__cap_mim_m3_1 W=24.8 L=24.8 MF=4 m=4
+XC7 vdda1 vssd1 sky130_fd_pr__cap_mim_m3_1 W=30 L=30 MF=10 m=10
+XC11 gpio_analog[11] vssd1 sky130_fd_pr__cap_mim_m3_1 W=30 L=30 MF=10 m=10
+**** begin user architecture code
+
+
+.include "/home/eggert/caravel_user_project_analog/xschem/analogsub.spice"
+.include "/home/eggert/caravel_user_project_analog/xschem/gilbert.spice"
+.include "/home/eggert/caravel_user_project_analog/xschem/filter.spice"
+.include "/home/eggert/caravel_user_project_analog/xschem/opamp.spice"
+.include "/home/eggert/caravel_user_project_analog/xschem/vco.spice"
+.include "/home/eggert/caravel_user_project_analog/xschem/clkdiv.spice"
+.include "/home/eggert/caravel_user_project_analog/xschem/phasecmp.spice"
+.include "/home/eggert/caravel_user_project_analog/xschem/quadgen.spice"
+
+.ic v(CTRL_IC)=0.9
+.ic v(CTRL_IC2)=0.9
+.ic v(CTRL)=0.9
+
+.option wnflag=1
+.param x=4.25
+.param l=30
+vvcc vcc 0 dc 1.8
+vvss vss 0 0
+.control
+tran 30p 15u 13u
+write sim.raw
+.endc
+
+
+ .lib /usr/local/share/pdk/sky130A/libs.tech/ngspice/sky130.lib.spice tt
+.include /usr/local/share/pdk/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_fd_sc_hd.spice
+
+**** end user architecture code
+.ends
+.GLOBAL GND
+.end
