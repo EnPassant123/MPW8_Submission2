@@ -2,4 +2,5 @@ lvs "mpw8.spice mpw8" "user_analog_project_wrapper.spice user_analog_project_wra
 ignore class r
 ignore class c
 ignore class vsrc
+ignore class sky130_fd_pr__res_generic_m3 
 lvs "mpw8.spice mpw8" "user_analog_project_wrapper.spice user_analog_project_wrapper" /usr/local/share/pdk/sky130A/libs.tech/netgen/sky130A_setup.tcl
