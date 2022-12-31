@@ -6,7 +6,6 @@ Cell user_analog_project_wrapper (1) disconnected node: proxygpio_analog[5]
 Cell user_analog_project_wrapper (1) disconnected node: proxygpio_analog[4]
 Cell user_analog_project_wrapper (1) disconnected node: proxyvssd1
 Cell user_analog_project_wrapper (1) disconnected node: proxyvdda1
-Cell user_analog_project_wrapper (1) disconnected node: proxygpio_analog[11]
 Subcircuit summary:
 Circuit 1: mpw8                            |Circuit 2: user_analog_project_wrapper     
 -------------------------------------------|-------------------------------------------
@@ -39,27 +38,12 @@ sky130_fd_sc_hd__nand2_1[[0]] (1)          |sky130_fd_sc_hd__nand2_1 (1)
 sky130_fd_sc_hd__clkbuf_4[[0]] (4)         |sky130_fd_sc_hd__clkbuf_4 (4)              
 sky130_fd_sc_hd__clkinv_1[[0]] (1)         |sky130_fd_sc_hd__clkinv_1 (1)              
 sky130_fd_sc_hd__clkbuf_16 (2)             |sky130_fd_sc_hd__clkbuf_16 (2)             
-Number of devices: 450                     |Number of devices: 450                     
-Number of nets: 247                        |Number of nets: 247                        
+(no matching element)                      |sky130_fd_pr__res_generic_m3 (4)           
+Number of devices: 450 **Mismatch**        |Number of devices: 454 **Mismatch**        
+Number of nets: 247 **Mismatch**           |Number of nets: 251 **Mismatch**           
 ---------------------------------------------------------------------------------------
 NET mismatches: Class fragments follow (with fanout counts):
 Circuit 1: mpw8                            |Circuit 2: user_analog_project_wrapper     
-
----------------------------------------------------------------------------------------
-Net: net9                                  |Net: filter_0/input                        
-  sky130_fd_pr__pfet_01v8_lvt/(1|3) = 2    |  sky130_fd_pr__pfet_01v8_lvt/(1|3) = 2    
-  sky130_fd_pr__nfet_01v8_lvt_SMGWK2/a_50_ |  sky130_fd_pr__nfet_01v8_lvt_SMGWK2/a_50_ 
-  sky130_fd_pr__nfet_01v8_lvt_SMGWK2/a_n10 |  sky130_fd_pr__nfet_01v8_lvt_SMGWK2/a_n10 
-  sky130_fd_pr__nfet_01v8_lvt_SMGWK2/a_n50 |  sky130_fd_pr__nfet_01v8_lvt_SMGWK2/a_n50 
-  sky130_fd_pr__res_xhigh_po_2p85_QPY2BD/a |  sky130_fd_pr__res_xhigh_po_2p85_QPY2BD/a 
-                                           |                                           
-Net: net4                                  |Net: filter_1/input                        
-  sky130_fd_pr__pfet_01v8_lvt/(1|3) = 2    |  sky130_fd_pr__pfet_01v8_lvt/(1|3) = 2    
-  sky130_fd_pr__nfet_01v8_lvt_SMGWK2/a_50_ |  sky130_fd_pr__nfet_01v8_lvt_SMGWK2/a_50_ 
-  sky130_fd_pr__nfet_01v8_lvt_SMGWK2/a_n10 |  sky130_fd_pr__nfet_01v8_lvt_SMGWK2/a_n10 
-  sky130_fd_pr__nfet_01v8_lvt_SMGWK2/a_n50 |  sky130_fd_pr__nfet_01v8_lvt_SMGWK2/a_n50 
-  sky130_fd_pr__res_xhigh_po_2p85_QPY2BD/a |  sky130_fd_pr__res_xhigh_po_2p85_QPY2BD/a 
----------------------------------------------------------------------------------------
 
 ---------------------------------------------------------------------------------------
 Net: vssd1                                 |Net: vssd1                                 
@@ -111,6 +95,67 @@ Net: vssd1                                 |Net: vssd1
   sky130_fd_sc_hd__clkinv_1[[0]]/VNB = 1   |  sky130_fd_sc_hd__bufbuf_8/VGND = 2       
   sky130_fd_sc_hd__clkbuf_16/VGND = 2      |  sky130_fd_sc_hd__clkbuf_16/VGND = 2      
   sky130_fd_sc_hd__clkbuf_16/VNB = 2       |  sky130_fd_sc_hd__clkbuf_16/VNB = 2       
+                                           |  sky130_fd_pr__res_generic_m3/(end_a|end_ 
+                                           |                                           
+Net: vdda1                                 |Net: vdda1                                 
+  sky130_fd_pr__pfet_01v8_lvt/4 = 51       |  sky130_fd_pr__pfet_01v8_lvt/4 = 51       
+  sky130_fd_pr__pfet_01v8_lvt/(1|3) = 31   |  sky130_fd_pr__pfet_01v8_lvt/(1|3) = 31   
+  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  |  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  
+  sky130_fd_pr__res_xhigh_po_5p73/(1|2) =  |  sky130_fd_pr__res_xhigh_po_5p73/(1|2) =  
+  sky130_fd_sc_hd__clkbuf_1[[0]]/VPWR = 1  |  sky130_fd_sc_hd__clkbuf_4/VPWR = 4       
+  sky130_fd_sc_hd__clkbuf_1[[0]]/VPB = 1   |  sky130_fd_sc_hd__clkbuf_4/VPB = 4        
+  sky130_fd_pr__res_xhigh_po_0p35_H4KU7R/a |  sky130_fd_pr__res_xhigh_po_0p35_H4KU7R/a 
+  sky130_fd_pr__pfet_01v8/(1|3) = 8        |  sky130_fd_pr__pfet_01v8/(1|3) = 8        
+  sky130_fd_pr__pfet_01v8/4 = 13           |  sky130_fd_pr__pfet_01v8/4 = 13           
+  sky130_fd_sc_hd__or4bb_1[[0]]/VPWR = 1   |  sky130_fd_sc_hd__clkbuf_1/VPWR = 1       
+  sky130_fd_sc_hd__or4bb_1[[0]]/VPB = 1    |  sky130_fd_sc_hd__clkinv_1/VPWR = 1       
+  sky130_fd_pr__pfet_01v8_hvt/(1|3) = 96   |  sky130_fd_pr__pfet_01v8_hvt/(1|3) = 96   
+  sky130_fd_pr__pfet_01v8_hvt/4 = 128      |  sky130_fd_pr__pfet_01v8_hvt/4 = 128      
+  sky130_fd_sc_hd__bufbuf_8[[0]]/VPWR = 2  |  sky130_fd_sc_hd__or4bb_1/VPB = 1         
+  sky130_fd_sc_hd__bufbuf_8[[0]]/VPB = 2   |  sky130_fd_sc_hd__bufbuf_8/VPWR = 2       
+  sky130_fd_sc_hd__clkdlybuf4s50_1[[0]]/VP |  sky130_fd_sc_hd__bufbuf_8/VPB = 2        
+  sky130_fd_sc_hd__clkdlybuf4s50_1[[0]]/VP |  sky130_fd_sc_hd__clkdlybuf4s50_1/VPWR =  
+  sky130_fd_sc_hd__nand2_1[[0]]/VPWR = 1   |  sky130_fd_sc_hd__clkdlybuf4s50_1/VPB = 1 
+  sky130_fd_sc_hd__nand2_1[[0]]/VPB = 1    |  sky130_fd_sc_hd__or4bb_1/VPWR = 1        
+  sky130_fd_sc_hd__clkbuf_4[[0]]/VPWR = 4  |  sky130_fd_sc_hd__nand2_1/VPB = 1         
+  sky130_fd_sc_hd__clkbuf_4[[0]]/VPB = 4   |  sky130_fd_sc_hd__nand2_1/VPWR = 1        
+  sky130_fd_pr__nfet_01v8/2 = 4            |  sky130_fd_pr__nfet_01v8/2 = 4            
+  sky130_fd_pr__pfet_01v8_hvt/2 = 4        |  sky130_fd_pr__pfet_01v8_hvt/2 = 4        
+  sky130_fd_sc_hd__clkinv_1[[0]]/VPWR = 1  |  sky130_fd_sc_hd__clkbuf_1/VPB = 1        
+  sky130_fd_sc_hd__clkinv_1[[0]]/VPB = 1   |  sky130_fd_sc_hd__clkinv_1/VPB = 1        
+  sky130_fd_pr__cap_mim_m3_1/2 = 1         |  sky130_fd_pr__cap_mim_m3_1/2 = 1         
+  sky130_fd_sc_hd__clkbuf_16/VPB = 2       |  sky130_fd_sc_hd__clkbuf_16/VPB = 2       
+  sky130_fd_sc_hd__clkbuf_16/VPWR = 2      |  sky130_fd_sc_hd__clkbuf_16/VPWR = 2      
+  sky130_fd_pr__cap_mim_m3_1/1 = 1         |  sky130_fd_pr__cap_mim_m3_1/1 = 1         
+                                           |  sky130_fd_pr__res_generic_m3/(end_a|end_ 
+                                           |                                           
+(no matching net)                          |Net: io_oeb[9]                             
+                                           |  sky130_fd_pr__res_generic_m3/(end_a|end_ 
+                                           |                                           
+(no matching net)                          |Net: io_oeb[13]                            
+                                           |  sky130_fd_pr__res_generic_m3/(end_a|end_ 
+                                           |                                           
+(no matching net)                          |Net: io_oeb[15]                            
+                                           |  sky130_fd_pr__res_generic_m3/(end_a|end_ 
+                                           |                                           
+(no matching net)                          |Net: io_oeb[10]                            
+                                           |  sky130_fd_pr__res_generic_m3/(end_a|end_ 
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Net: net9                                  |Net: filter_0/input                        
+  sky130_fd_pr__pfet_01v8_lvt/(1|3) = 2    |  sky130_fd_pr__pfet_01v8_lvt/(1|3) = 2    
+  sky130_fd_pr__nfet_01v8_lvt_SMGWK2/a_50_ |  sky130_fd_pr__nfet_01v8_lvt_SMGWK2/a_50_ 
+  sky130_fd_pr__nfet_01v8_lvt_SMGWK2/a_n10 |  sky130_fd_pr__nfet_01v8_lvt_SMGWK2/a_n10 
+  sky130_fd_pr__nfet_01v8_lvt_SMGWK2/a_n50 |  sky130_fd_pr__nfet_01v8_lvt_SMGWK2/a_n50 
+  sky130_fd_pr__res_xhigh_po_2p85_QPY2BD/a |  sky130_fd_pr__res_xhigh_po_2p85_QPY2BD/a 
+                                           |                                           
+Net: net4                                  |Net: filter_1/input                        
+  sky130_fd_pr__pfet_01v8_lvt/(1|3) = 2    |  sky130_fd_pr__pfet_01v8_lvt/(1|3) = 2    
+  sky130_fd_pr__nfet_01v8_lvt_SMGWK2/a_50_ |  sky130_fd_pr__nfet_01v8_lvt_SMGWK2/a_50_ 
+  sky130_fd_pr__nfet_01v8_lvt_SMGWK2/a_n10 |  sky130_fd_pr__nfet_01v8_lvt_SMGWK2/a_n10 
+  sky130_fd_pr__nfet_01v8_lvt_SMGWK2/a_n50 |  sky130_fd_pr__nfet_01v8_lvt_SMGWK2/a_n50 
+  sky130_fd_pr__res_xhigh_po_2p85_QPY2BD/a |  sky130_fd_pr__res_xhigh_po_2p85_QPY2BD/a 
 ---------------------------------------------------------------------------------------
 
 ---------------------------------------------------------------------------------------
@@ -156,15 +201,33 @@ DEVICE mismatches: Class fragments follow (with node fanout counts):
 Circuit 1: mpw8                            |Circuit 2: user_analog_project_wrapper     
 
 ---------------------------------------------------------------------------------------
+(no matching instance)                     |Instance: sky130_fd_pr__res_generic_m3:0   
+                                           |  (end_a,end_b) = (368,1)                  
+                                           |                                           
+                                           |                                           
+(no matching instance)                     |Instance: sky130_fd_pr__res_generic_m3:1   
+                                           |  (end_a,end_b) = (368,1)                  
+                                           |                                           
+                                           |                                           
+(no matching instance)                     |Instance: sky130_fd_pr__res_generic_m3:2   
+                                           |  (end_a,end_b) = (374,1)                  
+                                           |                                           
+                                           |                                           
+(no matching instance)                     |Instance: sky130_fd_pr__res_generic_m3:3   
+                                           |  (end_a,end_b) = (374,1)                  
+                                           |                                           
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
 Instance: gilbert:14/sky130_fd_pr__nfet_01 |Instance: gilbert_1/sky130_fd_pr__nfet_01v 
   a_16_n500# = 3                           |  a_16_n500# = 3                           
-  a_n176_n674# = 372                       |  a_n176_n674# = 372                       
+  a_n176_n674# = 372                       |  a_n176_n674# = 374                       
   a_n74_n500# = 4                          |  a_n74_n500# = 4                          
   a_n33_n588# = 3                          |  a_n33_n588# = 3                          
                                            |                                           
 Instance: gilbert:14//sky130_fd_pr__nfet_0 |Instance: gilbert_1//sky130_fd_pr__nfet_01 
   a_16_n500# = 3                           |  a_16_n500# = 3                           
-  a_n176_n674# = 372                       |  a_n176_n674# = 372                       
+  a_n176_n674# = 372                       |  a_n176_n674# = 374                       
   a_n74_n500# = 4                          |  a_n74_n500# = 4                          
   a_n33_n588# = 3                          |  a_n33_n588# = 3                          
 ---------------------------------------------------------------------------------------
@@ -172,13 +235,13 @@ Instance: gilbert:14//sky130_fd_pr__nfet_0 |Instance: gilbert_1//sky130_fd_pr__n
 ---------------------------------------------------------------------------------------
 Instance: gilbert:14/sky130_fd_pr__nfet_01 |Instance: gilbert_1/sky130_fd_pr__nfet_01v 
   a_16_n500# = 4                           |  a_16_n500# = 4                           
-  a_n176_n674# = 372                       |  a_n176_n674# = 372                       
+  a_n176_n674# = 372                       |  a_n176_n674# = 374                       
   a_n74_n500# = 3                          |  a_n74_n500# = 3                          
   a_n33_n588# = 3                          |  a_n33_n588# = 3                          
                                            |                                           
 Instance: gilbert:14/sky130_fd_pr__nfet_01 |Instance: gilbert_1/sky130_fd_pr__nfet_01v 
   a_16_n500# = 4                           |  a_16_n500# = 4                           
-  a_n176_n674# = 372                       |  a_n176_n674# = 372                       
+  a_n176_n674# = 372                       |  a_n176_n674# = 374                       
   a_n74_n500# = 3                          |  a_n74_n500# = 3                          
   a_n33_n588# = 3                          |  a_n33_n588# = 3                          
 ---------------------------------------------------------------------------------------
@@ -187,13 +250,13 @@ Netlists do not match.
 Subcircuit pins:
 Circuit 1: mpw8                            |Circuit 2: user_analog_project_wrapper     
 -------------------------------------------|-------------------------------------------
+vssd1                                      |io_oeb[15] **Mismatch**                    
+vdda1                                      |io_oeb[10] **Mismatch**                    
+io_out[9]                                  |io_out[9]                                  
+gpio_analog[5]                             |gpio_analog[5]                             
 gpio_analog[4]                             |gpio_analog[4]                             
 gpio_analog[13]                            |gpio_analog[13]                            
 gpio_analog[10]                            |gpio_analog[10]                            
-io_out[9]                                  |io_out[9]                                  
-gpio_analog[5]                             |gpio_analog[5]                             
-vdda1                                      |vdda1                                      
-vssd1                                      |vssd1                                      
 io_in[10]                                  |io_in[10]                                  
 gpio_analog[12]                            |gpio_analog[12]                            
 gpio_analog[0]                             |gpio_analog[0]                             
@@ -203,15 +266,18 @@ io_out[13]                                 |io_out[13]
 gpio_analog[9]                             |gpio_analog[9]                             
 gpio_analog[1]                             |gpio_analog[1]                             
 proxygpio_analog[10]                       |proxygpio_analog[10]                       
-proxygpio_analog[11]                       |proxygpio_analog[11]                       
 proxygpio_analog[12]                       |proxygpio_analog[12]                       
 proxygpio_analog[4]                        |proxygpio_analog[4]                        
 proxygpio_analog[5]                        |proxygpio_analog[5]                        
 proxygpio_analog[9]                        |proxygpio_analog[9]                        
 proxyvdda1                                 |proxyvdda1                                 
 proxyvssd1                                 |proxyvssd1                                 
+(no matching pin)                          |io_oeb[13]                                 
+(no matching pin)                          |io_oeb[9]                                  
+(no matching pin)                          |vdda1                                      
+(no matching pin)                          |vssd1                                      
 ---------------------------------------------------------------------------------------
-Cell pin lists are equivalent.
+Cell pin lists for mpw8 and user_analog_project_wrapper altered to match.
 Device classes mpw8 and user_analog_project_wrapper are equivalent.
 
-Final result: Netlists do not match.
+Final result: Top level cell failed pin matching.
