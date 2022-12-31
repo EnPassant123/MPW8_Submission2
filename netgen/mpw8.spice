@@ -110,18 +110,18 @@ XC11 gpio_analog[11] vssd1 sky130_fd_pr__cap_mim_m3_1 W=30 L=30 MF=10 m=10
 **** begin user architecture code
 
 
-.include "/home/eggert/caravel_user_project_analog/xschem/analogsub.spice"
-.include "/home/eggert/caravel_user_project_analog/xschem/gilbert.spice"
-.include "/home/eggert/caravel_user_project_analog/xschem/filter.spice"
-.include "/home/eggert/caravel_user_project_analog/xschem/opamp.spice"
-.include "/home/eggert/caravel_user_project_analog/xschem/vco.spice"
-.include "/home/eggert/caravel_user_project_analog/xschem/clkdiv.spice"
-.include "/home/eggert/caravel_user_project_analog/xschem/phasecmp.spice"
-.include "/home/eggert/caravel_user_project_analog/xschem/quadgen.spice"
+**.include "/home/eggert/caravel_user_project_analog/xschem/analogsub.spice"
+**.include "/home/eggert/caravel_user_project_analog/xschem/gilbert.spice"
+**.include "/home/eggert/caravel_user_project_analog/xschem/filter.spice"
+**.include "/home/eggert/caravel_user_project_analog/xschem/opamp.spice"
+**.include "/home/eggert/caravel_user_project_analog/xschem/vco.spice"
+**.include "/home/eggert/caravel_user_project_analog/xschem/clkdiv.spice"
+**.include "/home/eggert/caravel_user_project_analog/xschem/phasecmp.spice"
+**.include "/home/eggert/caravel_user_project_analog/xschem/quadgen.spice"
 
-.ic v(CTRL_IC)=0.9
-.ic v(CTRL_IC2)=0.9
-.ic v(CTRL)=0.9
+**.ic v(CTRL_IC)=0.9
+**.ic v(CTRL_IC2)=0.9
+**.ic v(CTRL)=0.9
 
 .option wnflag=1
 .param x=4.25
@@ -134,8 +134,8 @@ write sim.raw
 .endc
 
 
- .lib /usr/local/share/pdk/sky130A/libs.tech/ngspice/sky130.lib.spice tt
-.include /usr/local/share/pdk/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_fd_sc_hd.spice
+** .lib /usr/local/share/pdk/sky130A/libs.tech/ngspice/sky130.lib.spice tt
+**.include /usr/local/share/pdk/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_fd_sc_hd.spice
 
 **** end user architecture code
 .ends
