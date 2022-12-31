@@ -1,0 +1,36 @@
+* SPICE3 file created from gilbert.ext - technology: sky130A
+
+.subckt sky130_fd_pr__nfet_01v8_lvt_9DW9LC a_n74_n1000# a_16_n1000# a_n176_n1174#
++ a_n33_n1088#
+X0 a_16_n1000# a_n33_n1088# a_n74_n1000# a_n176_n1174# sky130_fd_pr__nfet_01v8_lvt ad=2.9e+12p pd=2.058e+07u as=2.9e+12p ps=2.058e+07u w=1e+07u l=160000u
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_lvt_84HFGD a_16_n500# a_n176_n674# a_n74_n500# a_n33_n588#
+X0 a_16_n500# a_n33_n588# a_n74_n500# a_n176_n674# sky130_fd_pr__nfet_01v8_lvt ad=1.45e+12p pd=1.058e+07u as=1.45e+12p ps=1.058e+07u w=5e+06u l=160000u
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_lvt_NK53LE w_n247_n619# a_n51_n497# a_51_n400# a_n109_n400#
++ VSUBS
+X0 a_51_n400# a_n51_n497# a_n109_n400# w_n247_n619# sky130_fd_pr__pfet_01v8_lvt ad=1.16e+12p pd=8.58e+06u as=1.16e+12p ps=8.58e+06u w=4e+06u l=510000u
+C0 w_n247_n619# VSUBS 2.48fF
+.ends
+
+.subckt gilbert vcc LO+ LO- RF+ RF- IF+ IF- NB PB GND
+XXM7 m1_n3965_n185# m1_n3365_n2785# GND RF+ sky130_fd_pr__nfet_01v8_lvt_9DW9LC
+XXM9 m1_n1565_n185# GND IF+ LO- sky130_fd_pr__nfet_01v8_lvt_84HFGD
+Xsky130_fd_pr__pfet_01v8_lvt_NK53LE_0 vcc PB vcc IF+ GND sky130_fd_pr__pfet_01v8_lvt_NK53LE
+Xsky130_fd_pr__nfet_01v8_lvt_84HFGD_0 m1_n3965_n185# GND IF+ LO+ sky130_fd_pr__nfet_01v8_lvt_84HFGD
+Xsky130_fd_pr__pfet_01v8_lvt_NK53LE_1 vcc PB IF- vcc GND sky130_fd_pr__pfet_01v8_lvt_NK53LE
+Xsky130_fd_pr__nfet_01v8_lvt_84HFGD_1 GND GND m1_n3365_n2785# NB sky130_fd_pr__nfet_01v8_lvt_84HFGD
+Xsky130_fd_pr__nfet_01v8_lvt_9DW9LC_0 m1_n3365_n2785# m1_n1565_n185# GND RF- sky130_fd_pr__nfet_01v8_lvt_9DW9LC
+XXM10 IF- GND m1_n1565_n185# LO+ sky130_fd_pr__nfet_01v8_lvt_84HFGD
+XXM11 IF- GND m1_n3965_n185# LO- sky130_fd_pr__nfet_01v8_lvt_84HFGD
+C0 IF- GND 2.12fF
+C1 m1_n3365_n2785# GND 3.86fF
+C2 m1_n3965_n185# GND 2.59fF
+C3 LO+ GND 3.31fF
+C4 vcc GND 7.07fF
+C5 m1_n1565_n185# GND 2.40fF
+C6 IF+ GND 2.59fF
+.ends
+

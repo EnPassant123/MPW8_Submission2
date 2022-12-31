@@ -1,0 +1,29 @@
+* SPICE3 file created from analogsub.ext - technology: sky130A
+
+.subckt sky130_fd_pr__pfet_01v8_lvt_PH9SS5 a_n50_n297# a_50_n200# a_n108_n200# w_n246_n419#
++ VSUBS
+X0 a_50_n200# a_n50_n297# a_n108_n200# w_n246_n419# sky130_fd_pr__pfet_01v8_lvt ad=5.8e+11p pd=4.58e+06u as=5.8e+11p ps=4.58e+06u w=2e+06u l=500000u
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_lvt_SMGWK2 a_n210_n574# a_50_n400# a_n108_n400# a_n50_n488#
+X0 a_50_n400# a_n50_n488# a_n108_n400# a_n210_n574# sky130_fd_pr__nfet_01v8_lvt ad=1.16e+12p pd=8.58e+06u as=1.16e+12p ps=8.58e+06u w=4e+06u l=500000u
+.ends
+
+.subckt analogsub vdd Vplus voffset Vminus gnd Nbias vout
+Xsky130_fd_pr__pfet_01v8_lvt_PH9SS5_0 m1_n1210_2130# m1_n1210_2130# vdd vdd gnd sky130_fd_pr__pfet_01v8_lvt_PH9SS5
+Xsky130_fd_pr__pfet_01v8_lvt_PH9SS5_1 m1_n1210_2130# vdd vout vdd gnd sky130_fd_pr__pfet_01v8_lvt_PH9SS5
+Xsky130_fd_pr__pfet_01v8_lvt_PH9SS5_2 m1_391_2121# vout vdd vdd gnd sky130_fd_pr__pfet_01v8_lvt_PH9SS5
+Xsky130_fd_pr__pfet_01v8_lvt_PH9SS5_3 m1_391_2121# vdd m1_391_2121# vdd gnd sky130_fd_pr__pfet_01v8_lvt_PH9SS5
+XXM112 gnd vout m1_0_490# Vminus sky130_fd_pr__nfet_01v8_lvt_SMGWK2
+XXM113 gnd m1_0_490# m1_391_2121# Vplus sky130_fd_pr__nfet_01v8_lvt_SMGWK2
+XXM114 gnd gnd m1_0_490# Nbias sky130_fd_pr__nfet_01v8_lvt_SMGWK2
+XXM117 gnd m1_n1210_2130# m1_n1330_400# voffset sky130_fd_pr__nfet_01v8_lvt_SMGWK2
+XXM118 gnd m1_n1330_400# vout vout sky130_fd_pr__nfet_01v8_lvt_SMGWK2
+XXM119 gnd gnd m1_n1330_400# Nbias sky130_fd_pr__nfet_01v8_lvt_SMGWK2
+C0 vdd gnd 7.49fF
+C1 Nbias gnd 2.61fF
+C2 vout gnd 2.49fF
+C3 m1_n1330_400# gnd 2.27fF
+C4 m1_0_490# gnd 2.07fF
+.ends
+

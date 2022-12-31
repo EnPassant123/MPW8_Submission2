@@ -1,0 +1,54 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1672368307
+<< pwell >>
+rect -739 -1599 739 1599
+<< psubdiff >>
+rect -703 1529 -607 1563
+rect 607 1529 703 1563
+rect -703 1467 -669 1529
+rect 669 1467 703 1529
+rect -703 -1529 -669 -1467
+rect 669 -1529 703 -1467
+rect -703 -1563 -607 -1529
+rect 607 -1563 703 -1529
+<< psubdiffcont >>
+rect -607 1529 607 1563
+rect -703 -1467 -669 1467
+rect 669 -1467 703 1467
+rect -607 -1563 607 -1529
+<< xpolycontact >>
+rect -573 1001 573 1433
+rect -573 -1433 573 -1001
+<< xpolyres >>
+rect -573 -1001 573 1001
+<< locali >>
+rect -703 1529 -607 1563
+rect 607 1529 703 1563
+rect -703 1467 -669 1529
+rect 669 1467 703 1529
+rect -703 -1529 -669 -1467
+rect 669 -1529 703 -1467
+rect -703 -1563 -607 -1529
+rect 607 -1563 703 -1529
+<< viali >>
+rect -557 1018 557 1415
+rect -557 -1415 557 -1018
+<< metal1 >>
+rect -569 1415 569 1421
+rect -569 1018 -557 1415
+rect 557 1018 569 1415
+rect -569 1012 569 1018
+rect -569 -1018 569 -1012
+rect -569 -1415 -557 -1018
+rect 557 -1415 569 -1018
+rect -569 -1421 569 -1415
+<< res5p73 >>
+rect -575 -1003 575 1003
+<< properties >>
+string FIXED_BBOX -686 -1546 686 1546
+string gencell sky130_fd_pr__res_xhigh_po_5p73
+string library sky130
+string parameters w 5.730 l 10.005 m 1 nx 1 wmin 5.730 lmin 0.50 rho 2000 val 3.557k dummy 0 dw 0.0 term 188.2 sterm 0.0 caplen 0 wmax 5.730 guard 1 glc 1 grc 1 gtc 1 gbc 1 compatible {sky130_fd_pr__res_xhigh_po_0p35  sky130_fd_pr__res_xhigh_po_0p69 sky130_fd_pr__res_xhigh_po_1p41  sky130_fd_pr__res_xhigh_po_2p85 sky130_fd_pr__res_xhigh_po_5p73} snake 0 full_metal 1 n_guard 0 hv_guard 0 vias 1 viagb 0 viagt 0 viagl 0 viagr 0
+<< end >>

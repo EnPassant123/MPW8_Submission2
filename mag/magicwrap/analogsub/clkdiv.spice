@@ -1,0 +1,67 @@
+* SPICE3 file created from clkdiv.ext - technology: sky130A
+
+.subckt sky130_fd_sc_hd__dfrbp_1 CLK D RESET_B VGND VPWR Q Q_N VNB VPB
+X0 Q a_1283_21# VPWR VPB sky130_fd_pr__pfet_01v8_hvt ad=2.8e+11p pd=2.56e+06u as=1.5393e+12p ps=1.452e+07u w=1e+06u l=150000u
+X1 a_1217_47# a_27_47# a_1108_47# VNB sky130_fd_pr__nfet_01v8 ad=1.338e+11p pd=1.5e+06u as=1.422e+11p ps=1.51e+06u w=360000u l=150000u
+X2 a_805_47# a_761_289# a_639_47# VNB sky130_fd_pr__nfet_01v8 ad=8.82e+10p pd=1.26e+06u as=2.802e+11p ps=2.2e+06u w=420000u l=150000u
+X3 VPWR a_1283_21# a_1847_47# VPB sky130_fd_pr__pfet_01v8_hvt ad=0p pd=0u as=1.664e+11p ps=1.8e+06u w=640000u l=150000u
+X4 a_1108_47# a_193_47# a_761_289# VNB sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=1.998e+11p ps=1.97e+06u w=360000u l=150000u
+X5 a_1283_21# a_1108_47# a_1462_47# VNB sky130_fd_pr__nfet_01v8 ad=1.092e+11p pd=1.36e+06u as=1.281e+11p ps=1.45e+06u w=420000u l=150000u
+X6 a_651_413# a_27_47# a_543_47# VPB sky130_fd_pr__pfet_01v8_hvt ad=3.402e+11p pd=3.3e+06u as=1.449e+11p ps=1.53e+06u w=420000u l=150000u
+X7 VGND RESET_B a_805_47# VNB sky130_fd_pr__nfet_01v8 ad=1.2225e+12p pd=1.139e+07u as=0p ps=0u w=420000u l=150000u
+X8 VPWR CLK a_27_47# VPB sky130_fd_pr__pfet_01v8_hvt ad=0p pd=0u as=1.664e+11p ps=1.8e+06u w=640000u l=150000u
+X9 Q_N a_1847_47# VGND VNB sky130_fd_pr__nfet_01v8 ad=1.69e+11p pd=1.82e+06u as=0p ps=0u w=650000u l=150000u
+X10 a_448_47# D VPWR VPB sky130_fd_pr__pfet_01v8_hvt ad=1.302e+11p pd=1.46e+06u as=0p ps=0u w=420000u l=150000u
+X11 VGND a_1283_21# a_1847_47# VNB sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=1.092e+11p ps=1.36e+06u w=420000u l=150000u
+X12 a_761_289# a_543_47# VGND VNB sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=640000u l=150000u
+X13 Q a_1283_21# VGND VNB sky130_fd_pr__nfet_01v8 ad=1.69e+11p pd=1.82e+06u as=0p ps=0u w=650000u l=150000u
+X14 a_193_47# a_27_47# VGND VNB sky130_fd_pr__nfet_01v8 ad=1.092e+11p pd=1.36e+06u as=0p ps=0u w=420000u l=150000u
+X15 a_1108_47# a_27_47# a_761_289# VPB sky130_fd_pr__pfet_01v8_hvt ad=1.176e+11p pd=1.4e+06u as=2.583e+11p ps=2.37e+06u w=420000u l=150000u
+X16 a_543_47# a_27_47# a_448_47# VNB sky130_fd_pr__nfet_01v8 ad=1.188e+11p pd=1.38e+06u as=1.32e+11p ps=1.49e+06u w=360000u l=150000u
+X17 a_1462_47# RESET_B VGND VNB sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=420000u l=150000u
+X18 a_543_47# a_193_47# a_448_47# VPB sky130_fd_pr__pfet_01v8_hvt ad=0p pd=0u as=0p ps=0u w=420000u l=150000u
+X19 a_448_47# D VGND VNB sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=420000u l=150000u
+X20 VPWR a_1283_21# a_1270_413# VPB sky130_fd_pr__pfet_01v8_hvt ad=0p pd=0u as=1.134e+11p ps=1.38e+06u w=420000u l=150000u
+X21 VPWR a_1108_47# a_1283_21# VPB sky130_fd_pr__pfet_01v8_hvt ad=0p pd=0u as=1.134e+11p ps=1.38e+06u w=420000u l=150000u
+X22 a_1270_413# a_193_47# a_1108_47# VPB sky130_fd_pr__pfet_01v8_hvt ad=0p pd=0u as=0p ps=0u w=420000u l=150000u
+X23 a_193_47# a_27_47# VPWR VPB sky130_fd_pr__pfet_01v8_hvt ad=1.664e+11p pd=1.8e+06u as=0p ps=0u w=640000u l=150000u
+X24 a_1283_21# RESET_B VPWR VPB sky130_fd_pr__pfet_01v8_hvt ad=0p pd=0u as=0p ps=0u w=420000u l=150000u
+X25 VPWR a_761_289# a_651_413# VPB sky130_fd_pr__pfet_01v8_hvt ad=0p pd=0u as=0p ps=0u w=420000u l=150000u
+X26 a_639_47# a_193_47# a_543_47# VNB sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=360000u l=150000u
+X27 Q_N a_1847_47# VPWR VPB sky130_fd_pr__pfet_01v8_hvt ad=2.6e+11p pd=2.52e+06u as=0p ps=0u w=1e+06u l=150000u
+X28 VGND a_1283_21# a_1217_47# VNB sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=420000u l=150000u
+X29 a_651_413# RESET_B VPWR VPB sky130_fd_pr__pfet_01v8_hvt ad=0p pd=0u as=0p ps=0u w=420000u l=150000u
+X30 VGND CLK a_27_47# VNB sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=1.092e+11p ps=1.36e+06u w=420000u l=150000u
+X31 a_761_289# a_543_47# VPWR VPB sky130_fd_pr__pfet_01v8_hvt ad=0p pd=0u as=0p ps=0u w=840000u l=150000u
+C0 VPB VNB 2.11fF
+.ends
+
+.subckt sky130_fd_sc_hd__or4bb_1 A B C_N D_N VGND VPWR X VNB VPB
+X0 VGND A a_311_413# VNB sky130_fd_pr__nfet_01v8 ad=5.5025e+11p pd=6.15e+06u as=2.331e+11p ps=2.79e+06u w=420000u l=150000u
+X1 VPWR A a_561_297# VPB sky130_fd_pr__pfet_01v8_hvt ad=5.41725e+11p pd=5.32e+06u as=1.197e+11p ps=1.41e+06u w=420000u l=150000u
+X2 a_393_413# a_205_93# a_311_413# VPB sky130_fd_pr__pfet_01v8_hvt ad=2.43e+11p pd=2.66e+06u as=1.092e+11p ps=1.36e+06u w=420000u l=150000u
+X3 VGND C_N a_27_410# VNB sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=1.092e+11p ps=1.36e+06u w=420000u l=150000u
+X4 VPWR C_N a_27_410# VPB sky130_fd_pr__pfet_01v8_hvt ad=0p pd=0u as=1.092e+11p ps=1.36e+06u w=420000u l=150000u
+X5 X a_311_413# VPWR VPB sky130_fd_pr__pfet_01v8_hvt ad=2.75e+11p pd=2.55e+06u as=0p ps=0u w=1e+06u l=150000u
+X6 VGND a_27_410# a_311_413# VNB sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=420000u l=150000u
+X7 a_561_297# B a_489_297# VPB sky130_fd_pr__pfet_01v8_hvt ad=0p pd=0u as=8.82e+10p ps=1.26e+06u w=420000u l=150000u
+X8 a_205_93# D_N VGND VNB sky130_fd_pr__nfet_01v8 ad=1.092e+11p pd=1.36e+06u as=0p ps=0u w=420000u l=150000u
+X9 a_205_93# D_N VPWR VPB sky130_fd_pr__pfet_01v8_hvt ad=1.176e+11p pd=1.4e+06u as=0p ps=0u w=420000u l=150000u
+X10 a_489_297# a_27_410# a_393_413# VPB sky130_fd_pr__pfet_01v8_hvt ad=0p pd=0u as=0p ps=0u w=420000u l=150000u
+X11 a_311_413# B VGND VNB sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=420000u l=150000u
+X12 a_311_413# a_205_93# VGND VNB sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=420000u l=150000u
+X13 X a_311_413# VGND VNB sky130_fd_pr__nfet_01v8 ad=1.7875e+11p pd=1.85e+06u as=0p ps=0u w=650000u l=150000u
+.ends
+
+.subckt clkdiv vcc input output gnd
+Xx5 input x5/D x7/RESET_B gnd vcc x5/Q x5/D gnd vcc sky130_fd_sc_hd__dfrbp_1
+Xx6 x5/Q x6/D x7/RESET_B gnd vcc x6/Q x6/D gnd vcc sky130_fd_sc_hd__dfrbp_1
+Xx7 x6/Q x7/D x7/RESET_B gnd vcc x7/Q x7/D gnd vcc sky130_fd_sc_hd__dfrbp_1
+Xsky130_fd_sc_hd__or4bb_1_0 x5/D x6/D output x7/D gnd vcc x7/RESET_B gnd vcc sky130_fd_sc_hd__or4bb_1
+Xsky130_fd_sc_hd__dfrbp_1_0 x7/Q output x7/RESET_B gnd vcc sky130_fd_sc_hd__dfrbp_1_0/Q
++ output gnd vcc sky130_fd_sc_hd__dfrbp_1
+C0 output gnd 2.58fF
+C1 x7/D gnd 2.13fF
+C2 vcc gnd 20.20fF
+.ends
+

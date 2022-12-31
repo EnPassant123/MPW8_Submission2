@@ -1,0 +1,5 @@
+lvs "mpw8.spice mpw8" "mpw8_mag.spice mpw8_mag" /usr/local/share/pdk/sky130A/libs.tech/netgen/sky130A_setup.tcl
+ignore class r
+ignore class c
+ignore class vsrc
+lvs "mpw8.spice mpw8" "mpw8_mag.spice mpw8_mag" /usr/local/share/pdk/sky130A/libs.tech/netgen/sky130A_setup.tcl

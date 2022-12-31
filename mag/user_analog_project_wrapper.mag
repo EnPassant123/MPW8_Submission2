@@ -1,7 +1,10 @@
 magic
-tech $PDK
+tech sky130A
 magscale 1 2
 timestamp 1639841760
+<< checkpaint >>
+rect 344349 617530 358213 628388
+rect 358540 617538 372404 628396
 << mvpsubdiff >>
 rect 345740 628255 345764 629032
 rect 371078 628255 371102 629032

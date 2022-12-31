@@ -1,0 +1,60 @@
+* SPICE3 file created from filter.ext - technology: sky130A
+
+.subckt sky130_fd_pr__pfet_01v8_lvt_X3MKZ5 a_n108_n1000# w_n246_n1219# a_n50_n1097#
++ a_50_n1000# VSUBS
+X0 a_50_n1000# a_n50_n1097# a_n108_n1000# w_n246_n1219# sky130_fd_pr__pfet_01v8_lvt ad=2.9e+12p pd=2.058e+07u as=2.9e+12p ps=2.058e+07u w=1e+07u l=500000u
+C0 w_n246_n1219# VSUBS 4.74fF
+.ends
+
+.subckt sky130_fd_pr__res_xhigh_po_0p69_LVNRZ4 a_n68_690# a_n198_n1252# a_n68_n1122#
+X0 a_n68_n1122# a_n68_690# a_n198_n1252# sky130_fd_pr__res_xhigh_po_0p69 l=6.9e+06u
+.ends
+
+.subckt sky130_fd_pr__res_xhigh_po_0p35_4XRDQ9 a_n165_n1462# a_n35_900# a_n35_n1332#
+X0 a_n35_n1332# a_n35_900# a_n165_n1462# sky130_fd_pr__res_xhigh_po_0p35 l=9e+06u
+.ends
+
+.subckt sky130_fd_pr__res_xhigh_po_2p85_QPY2BD a_n284_950# a_n284_n1382# a_n414_n1512#
+X0 a_n284_n1382# a_n284_950# a_n414_n1512# sky130_fd_pr__res_xhigh_po_2p85 l=9.5e+06u
+.ends
+
+.subckt sky130_fd_pr__cap_mim_m3_1_NUYDZ7 c1_n3046_n9020# m3_n3086_n9060# VSUBS
+X0 c1_n3046_n9020# m3_n3086_n9060# sky130_fd_pr__cap_mim_m3_1 l=2.9e+07u w=2.9e+07u
+X1 c1_n3046_n9020# m3_n3086_n9060# sky130_fd_pr__cap_mim_m3_1 l=2.9e+07u w=2.9e+07u
+X2 c1_n3046_n9020# m3_n3086_n9060# sky130_fd_pr__cap_mim_m3_1 l=2.9e+07u w=2.9e+07u
+C0 c1_n3046_n9020# m3_n3086_n9060# 213.36fF
+C1 c1_n3046_n9020# VSUBS 6.01fF
+C2 m3_n3086_n9060# VSUBS 48.16fF
+.ends
+
+.subckt sky130_fd_pr__cap_mim_m3_1_4BCNTW c1_n2146_n6160# m3_n2186_n6200# VSUBS
+X0 c1_n2146_n6160# m3_n2186_n6200# sky130_fd_pr__cap_mim_m3_1 l=3e+07u w=2e+07u
+X1 c1_n2146_n6160# m3_n2186_n6200# sky130_fd_pr__cap_mim_m3_1 l=3e+07u w=2e+07u
+C0 c1_n2146_n6160# m3_n2186_n6200# 101.32fF
+C1 c1_n2146_n6160# VSUBS 4.01fF
+C2 m3_n2186_n6200# VSUBS 26.09fF
+.ends
+
+.subckt sky130_fd_pr__cap_mim_m3_1_XN73Y5 c1_n1547_n1401# m3_n1587_n1441# VSUBS
+X0 c1_n1547_n1401# m3_n1587_n1441# sky130_fd_pr__cap_mim_m3_1 l=1.401e+07u w=1.401e+07u
+C0 c1_n1547_n1401# m3_n1587_n1441# 16.23fF
+C1 m3_n1587_n1441# VSUBS 5.87fF
+.ends
+
+.subckt filter vcc input out pb gnd
+XXM24 vcc vcc pb out gnd sky130_fd_pr__pfet_01v8_lvt_X3MKZ5
+XXR23 m1_20970_n34050# gnd m1_19330_n37886# sky130_fd_pr__res_xhigh_po_0p69_LVNRZ4
+Xsky130_fd_pr__res_xhigh_po_0p35_4XRDQ9_0 gnd m1_21449_n33397# m1_20970_n34050# sky130_fd_pr__res_xhigh_po_0p35_4XRDQ9
+XXR7 m1_21449_n33397# input gnd sky130_fd_pr__res_xhigh_po_2p85_QPY2BD
+XXC27 m1_21449_n33397# gnd gnd sky130_fd_pr__cap_mim_m3_1_NUYDZ7
+XXC4 out m1_20970_n34050# gnd sky130_fd_pr__cap_mim_m3_1_4BCNTW
+Xsky130_fd_pr__cap_mim_m3_1_XN73Y5_0 m1_19330_n37886# gnd gnd sky130_fd_pr__cap_mim_m3_1_XN73Y5
+Xsky130_fd_pr__pfet_01v8_lvt_X3MKZ5_0 out vcc m1_19330_n37886# gnd gnd sky130_fd_pr__pfet_01v8_lvt_X3MKZ5
+C0 m1_19330_n37886# gnd 5.28fF
+C1 out gnd 7.77fF
+C2 m1_20970_n34050# gnd 28.61fF
+C3 m1_21449_n33397# gnd 14.63fF
+C4 input gnd 2.57fF
+C5 vcc gnd 10.28fF
+.ends
+

@@ -1,0 +1,31 @@
+v {xschem version=3.1.0 file_version=1.2 }
+G {}
+K {type=primitive
+format="@name @pinlist @symname"
+template="name=x1"}
+V {}
+S {}
+E {}
+L 4 -80 -80 -80 70 {}
+L 4 -80 70 110 -0 {}
+L 4 -80 -80 110 -0 {}
+L 4 -60 -50 -60 -30 {}
+L 4 -70 -40 -50 -40 {}
+L 4 -70 40 -50 40 {}
+L 4 -100 40 -80 40 {}
+L 4 -100 -40 -80 -40 {}
+L 4 -0 -70 0 -50 {}
+L 4 -0 40 -0 60 {}
+L 4 110 0 130 0 {}
+B 5 -2.5 -72.5 2.5 -67.5 {name=XXX
+dir=inout}
+B 5 -102.5 37.5 -97.5 42.5 {name=XXX
+dir=inout}
+B 5 -102.5 -42.5 -97.5 -37.5 {name=XXX
+dir=inout}
+B 5 127.5 -2.5 132.5 2.5 {name=XXX
+dir=inout}
+B 5 -2.5 57.5 2.5 62.5 {name=XXX
+dir=inout}
+T {@name} -50 -30 0 0 0.4 0.4 {}
+T {@symname} -70 0 0 0 0.4 0.4 {}
