@@ -91,8 +91,8 @@ X1 VGND A Y VNB sky130_fd_pr__nfet_01v8 ad=1.197e+11p pd=1.41e+06u as=1.092e+11p
 X2 VPWR A Y VPB sky130_fd_pr__pfet_01v8_hvt ad=0p pd=0u as=0p ps=0u w=840000u l=150000u
 .ends
 
-.subckt quadgen clkin outa outb outc outd sky130_fd_sc_hd__tapvpwrvgnd_1_1/VGND vcc
-+ gnd
+.subckt quadgen clkin outa outb outc outd sky130_fd_sc_hd__tapvpwrvgnd_1_2/VPWR gnd
++ vcc sky130_fd_sc_hd__tapvpwrvgnd_1_2/VGND
 Xsky130_fd_sc_hd__clkbuf_4_0 x10/Q_N gnd vcc outc gnd vcc sky130_fd_sc_hd__clkbuf_4
 Xsky130_fd_sc_hd__clkbuf_4_1 x10/Q gnd vcc outd gnd vcc sky130_fd_sc_hd__clkbuf_4
 Xsky130_fd_sc_hd__clkbuf_4_2 sky130_fd_sc_hd__clkbuf_4_2/A gnd vcc outb gnd vcc sky130_fd_sc_hd__clkbuf_4
@@ -640,8 +640,8 @@ Xsky130_fd_pr__cap_mim_m3_1_5B6GLN_0 vdda1 vssd1 sky130_fd_pr__cap_mim_m3_1_5B6G
 Xsky130_fd_pr__cap_mim_m3_1_REKGFF_4 vssd1 vdda1 sky130_fd_pr__cap_mim_m3_1_REKGFF
 Xsky130_fd_pr__cap_mim_m3_1_REKGFF_3 vssd1 gpio_analog[11] sky130_fd_pr__cap_mim_m3_1_REKGFF
 Xsky130_fd_pr__cap_mim_m3_1_REKGFF_5 vssd1 vdda1 sky130_fd_pr__cap_mim_m3_1_REKGFF
-Xquadgen_0 io_in[15] gilbert_0/LO- gilbert_0/LO+ gilbert_1/LO+ gilbert_1/LO- vssd1
-+ vdda1 vssd1 quadgen
+Xquadgen_0 io_in[15] gilbert_0/LO- gilbert_0/LO+ gilbert_1/LO+ gilbert_1/LO- vdda1
++ vssd1 vdda1 vssd1 quadgen
 Xsky130_fd_pr__cap_mim_m3_1_REKGFF_6 vssd1 vdda1 sky130_fd_pr__cap_mim_m3_1_REKGFF
 Xsky130_fd_pr__cap_mim_m3_1_REKGFF_7 vssd1 vdda1 sky130_fd_pr__cap_mim_m3_1_REKGFF
 Xsky130_fd_pr__nfet_01v8_lvt_U9BGXT_0 gilbert_1/NB gilbert_1/NB vssd1 vssd1 sky130_fd_pr__nfet_01v8_lvt_U9BGXT
