@@ -7,487 +7,232 @@ Cell mpw8_mag (1) disconnected node: proxyvssd1
 Cell mpw8_mag (1) disconnected node: proxyvdda1
 Cell mpw8_mag (1) disconnected node: proxygpio_analog[11]
 Subcircuit summary:
-Circuit 1: mpw8                                                                   |Circuit 2: mpw8_mag                                                               
-----------------------------------------------------------------------------------|----------------------------------------------------------------------------------
-sky130_fd_pr__cap_mim_m3_1 (213->30)                                              |sky130_fd_pr__cap_mim_m3_1 (247->30)                                              
-sky130_fd_pr__pfet_01v8_lvt (51)                                                  |sky130_fd_pr__pfet_01v8_lvt (51)                                                  
-sky130_fd_pr__nfet_01v8_lvt (5)                                                   |sky130_fd_pr__nfet_01v8_lvt (5)                                                   
-sky130_fd_pr__res_xhigh_po_0p35 (16)                                              |(no matching element)                                                             
-sky130_fd_pr__res_xhigh_po_5p73 (3)                                               |(no matching element)                                                             
-sky130_fd_pr__nfet_01v8_lvt_SMGWK2 (18)                                           |sky130_fd_pr__nfet_01v8_lvt_SMGWK2 (18)                                           
-sky130_fd_pr__nfet_01v8_lvt_9DW9LC (4)                                            |sky130_fd_pr__nfet_01v8_lvt_9DW9LC (4)                                            
-sky130_fd_pr__nfet_01v8_lvt_84HFGD (10)                                           |sky130_fd_pr__nfet_01v8_lvt_84HFGD (10)                                           
-sky130_fd_pr__res_xhigh_po_0p69 (6)                                               |(no matching element)                                                             
-sky130_fd_pr__res_high_po_2p85 (3)                                                |(no matching element)                                                             
-sky130_fd_pr__nfet_01v8_lvt_8TEW3F (6)                                            |sky130_fd_pr__nfet_01v8_lvt_8TEW3F (6)                                            
-sky130_fd_pr__nfet_01v8_Q8AFGD (12)                                               |sky130_fd_pr__nfet_01v8_Q8AFGD (12)                                               
-sky130_fd_sc_hd__clkbuf_1[[0]] (1)                                                |sky130_fd_sc_hd__clkbuf_1 (1)                                                     
-sky130_fd_pr__pfet_01v8 (13)                                                      |sky130_fd_pr__pfet_01v8 (13)                                                      
-sky130_fd_pr__res_xhigh_po_2p85 (2)                                               |(no matching element)                                                             
-sky130_fd_sc_hd__or4bb_1[[0]] (1)                                                 |sky130_fd_sc_hd__or4bb_1 (1)                                                      
-sky130_fd_pr__pfet_01v8_hvt (96)                                                  |sky130_fd_pr__pfet_01v8_hvt (96)                                                  
-sky130_fd_pr__nfet_01v8 (97)                                                      |sky130_fd_pr__nfet_01v8 (97)                                                      
-sky130_fd_sc_hd__bufbuf_8[[0]] (2)                                                |sky130_fd_sc_hd__bufbuf_8 (2)                                                     
-sky130_fd_sc_hd__clkdlybuf4s50_1[[0]] (1)                                         |sky130_fd_sc_hd__clkdlybuf4s50_1 (1)                                              
-sky130_fd_pr__nfet_01v8_A5ES5P (1)                                                |sky130_fd_pr__nfet_01v8_A5ES5P (1)                                                
-sky130_fd_sc_hd__nand2_1[[0]] (1)                                                 |sky130_fd_sc_hd__nand2_1 (1)                                                      
-quadgen (1)                                                                       |quadgen (1)                                                                       
-sky130_fd_sc_hd__clkbuf_16 (2)                                                    |sky130_fd_sc_hd__clkbuf_16 (2)                                                    
-(no matching element)                                                             |sky130_fd_pr__res_xhigh_po (27)                                                   
-(no matching element)                                                             |sky130_fd_pr__res_high_po (3)                                                     
-Number of devices: 382                                                            |Number of devices: 382                                                            
-Number of nets: 214                                                               |Number of nets: 214                                                               
----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Circuit 1: mpw8                            |Circuit 2: mpw8_mag                        
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__cap_mim_m3_1 (213->30)       |sky130_fd_pr__cap_mim_m3_1 (247->30)       
+sky130_fd_pr__pfet_01v8_lvt (51)           |sky130_fd_pr__pfet_01v8_lvt (51)           
+sky130_fd_pr__nfet_01v8_lvt (5)            |sky130_fd_pr__nfet_01v8_lvt (5)            
+sky130_fd_pr__res_xhigh_po_0p35 (13)       |sky130_fd_pr__res_xhigh_po_0p35 (13)       
+sky130_fd_pr__res_xhigh_po_5p73 (3)        |sky130_fd_pr__res_xhigh_po_5p73 (3)        
+sky130_fd_pr__nfet_01v8_lvt_SMGWK2 (18)    |sky130_fd_pr__nfet_01v8_lvt_SMGWK2 (18)    
+sky130_fd_pr__nfet_01v8_lvt_9DW9LC (4)     |sky130_fd_pr__nfet_01v8_lvt_9DW9LC (4)     
+sky130_fd_pr__nfet_01v8_lvt_84HFGD (10)    |sky130_fd_pr__nfet_01v8_lvt_84HFGD (10)    
+sky130_fd_pr__res_xhigh_po_0p69_FR2N8V (3) |sky130_fd_pr__res_xhigh_po_0p69_FR2N8V (3) 
+sky130_fd_pr__res_high_po_2p85_HV4VUF (3)  |sky130_fd_pr__res_high_po_2p85_HV4VUF (3)  
+sky130_fd_pr__nfet_01v8_lvt_8TEW3F (6)     |sky130_fd_pr__nfet_01v8_lvt_8TEW3F (6)     
+sky130_fd_pr__nfet_01v8_Q8AFGD (12)        |sky130_fd_pr__nfet_01v8_Q8AFGD (12)        
+sky130_fd_sc_hd__clkbuf_1[[0]] (1)         |sky130_fd_sc_hd__clkbuf_1 (1)              
+sky130_fd_pr__res_xhigh_po_0p35_H4KU7R (1) |sky130_fd_pr__res_xhigh_po_0p35_H4KU7R (1) 
+sky130_fd_pr__res_xhigh_po_0p69_ET3NLF (1) |sky130_fd_pr__res_xhigh_po_0p69_ET3NLF (1) 
+sky130_fd_pr__pfet_01v8 (13)               |sky130_fd_pr__pfet_01v8 (13)               
+sky130_fd_pr__res_xhigh_po_0p69_LVNRZ4 (2) |sky130_fd_pr__res_xhigh_po_0p69_LVNRZ4 (2) 
+sky130_fd_pr__res_xhigh_po_0p35_4XRDQ9 (2) |sky130_fd_pr__res_xhigh_po_0p35_4XRDQ9 (2) 
+sky130_fd_pr__res_xhigh_po_2p85_QPY2BD (2) |sky130_fd_pr__res_xhigh_po_2p85_QPY2BD (2) 
+sky130_fd_sc_hd__or4bb_1[[0]] (1)          |sky130_fd_sc_hd__or4bb_1 (1)               
+sky130_fd_pr__pfet_01v8_hvt (96)           |sky130_fd_pr__pfet_01v8_hvt (96)           
+sky130_fd_pr__nfet_01v8 (97)               |sky130_fd_pr__nfet_01v8 (97)               
+sky130_fd_sc_hd__bufbuf_8[[0]] (2)         |sky130_fd_sc_hd__bufbuf_8 (2)              
+sky130_fd_sc_hd__clkdlybuf4s50_1[[0]] (1)  |sky130_fd_sc_hd__clkdlybuf4s50_1 (1)       
+sky130_fd_pr__nfet_01v8_A5ES5P (1)         |sky130_fd_pr__nfet_01v8_A5ES5P (1)         
+sky130_fd_sc_hd__nand2_1[[0]] (1)          |sky130_fd_sc_hd__nand2_1 (1)               
+quadgen (1)                                |quadgen (1)                                
+sky130_fd_sc_hd__clkbuf_16 (2)             |sky130_fd_sc_hd__clkbuf_16 (2)             
+Number of devices: 382                     |Number of devices: 382                     
+Number of nets: 214                        |Number of nets: 214                        
+---------------------------------------------------------------------------------------
 NET mismatches: Class fragments follow (with fanout counts):
-Circuit 1: mpw8                                                                   |Circuit 2: mpw8_mag                                                               
+Circuit 1: mpw8                            |Circuit 2: mpw8_mag                        
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Net: vco:4/m1_970_1840#                                                           |Net: /vco_0/m1_970_1840#                                                          
-  sky130_fd_pr__nfet_01v8_Q8AFGD/a_n33_n188# = 7                                  |  sky130_fd_pr__nfet_01v8_Q8AFGD/a_n33_n188# = 7                                  
-  sky130_fd_pr__res_xhigh_po_0p35/(1|2) = 1                                       |  sky130_fd_pr__res_xhigh_po/(1|2) = 2                                            
-  sky130_fd_pr__nfet_01v8_Q8AFGD/a_16_n100# = 1                                   |  sky130_fd_pr__nfet_01v8_Q8AFGD/a_16_n100# = 1                                   
-  sky130_fd_pr__res_xhigh_po_0p69/(1|2) = 1                                       |                                                                                  
----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------
+Net: net9                                  |Net: filter_0/input                        
+  sky130_fd_pr__pfet_01v8_lvt/(1|3) = 2    |  sky130_fd_pr__pfet_01v8_lvt/(1|3) = 2    
+  sky130_fd_pr__nfet_01v8_lvt_SMGWK2/a_50_ |  sky130_fd_pr__nfet_01v8_lvt_SMGWK2/a_50_ 
+  sky130_fd_pr__nfet_01v8_lvt_SMGWK2/a_n10 |  sky130_fd_pr__nfet_01v8_lvt_SMGWK2/a_n10 
+  sky130_fd_pr__nfet_01v8_lvt_SMGWK2/a_n50 |  sky130_fd_pr__nfet_01v8_lvt_SMGWK2/a_n50 
+  sky130_fd_pr__res_xhigh_po_2p85_QPY2BD/a |  sky130_fd_pr__res_xhigh_po_2p85_QPY2BD/a 
+---------------------------------------------------------------------------------------
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Net: net1                                                                         |Net: opamp_0/inv                                                                  
-  sky130_fd_pr__res_xhigh_po_0p35/(1|2) = 1                                       |  sky130_fd_pr__res_xhigh_po/(1|2) = 1                                            
-  sky130_fd_pr__nfet_01v8_lvt/(1|3) = 1                                           |  sky130_fd_pr__nfet_01v8_lvt/(1|3) = 1                                           
-  sky130_fd_pr__cap_mim_m3_1/1 = 1                                                |  sky130_fd_pr__cap_mim_m3_1/1 = 1                                                
-  sky130_fd_pr__pfet_01v8_lvt/(1|3) = 1                                           |  sky130_fd_pr__pfet_01v8_lvt/(1|3) = 1                                           
-  sky130_fd_pr__pfet_01v8_lvt/2 = 1                                               |  sky130_fd_pr__pfet_01v8_lvt/2 = 1                                               
-  sky130_fd_pr__cap_mim_m3_1/2 = 1                                                |  sky130_fd_pr__cap_mim_m3_1/2 = 1                                                
----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------
+Net: net4                                  |Net: filter_1/input                        
+  sky130_fd_pr__pfet_01v8_lvt/(1|3) = 2    |  sky130_fd_pr__pfet_01v8_lvt/(1|3) = 2    
+  sky130_fd_pr__nfet_01v8_lvt_SMGWK2/a_50_ |  sky130_fd_pr__nfet_01v8_lvt_SMGWK2/a_50_ 
+  sky130_fd_pr__nfet_01v8_lvt_SMGWK2/a_n10 |  sky130_fd_pr__nfet_01v8_lvt_SMGWK2/a_n10 
+  sky130_fd_pr__nfet_01v8_lvt_SMGWK2/a_n50 |  sky130_fd_pr__nfet_01v8_lvt_SMGWK2/a_n50 
+  sky130_fd_pr__res_xhigh_po_2p85_QPY2BD/a |  sky130_fd_pr__res_xhigh_po_2p85_QPY2BD/a 
+---------------------------------------------------------------------------------------
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Net: gpio_analog[4]                                                               |Net: gpio_analog[4]                                                               
-  sky130_fd_pr__res_xhigh_po_5p73/(1|2) = 1                                       |  sky130_fd_pr__res_xhigh_po/(1|2) = 1                                            
----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------
+Net: vssd1                                 |Net: vssd1                                 
+  sky130_fd_pr__pfet_01v8_lvt/(1|3) = 4    |  sky130_fd_pr__pfet_01v8_lvt/(1|3) = 4    
+  sky130_fd_pr__nfet_01v8_lvt/(1|3) = 5    |  sky130_fd_pr__nfet_01v8_lvt/(1|3) = 5    
+  sky130_fd_pr__nfet_01v8_lvt/4 = 5        |  sky130_fd_pr__nfet_01v8_lvt/4 = 5        
+  sky130_fd_pr__cap_mim_m3_1/2 = 8         |  sky130_fd_pr__cap_mim_m3_1/2 = 8         
+  sky130_fd_pr__cap_mim_m3_1/1 = 6         |  sky130_fd_pr__cap_mim_m3_1/1 = 6         
+  sky130_fd_pr__res_xhigh_po_0p35/3 = 13   |  sky130_fd_pr__res_xhigh_po_0p35/3 = 13   
+  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  |  sky130_fd_pr__res_xhigh_po_0p35/(1|2) =  
+  sky130_fd_pr__res_xhigh_po_5p73/3 = 3    |  sky130_fd_pr__res_xhigh_po_5p73/3 = 3    
+  sky130_fd_pr__res_xhigh_po_5p73/(1|2) =  |  sky130_fd_pr__res_xhigh_po_5p73/(1|2) =  
+  sky130_fd_pr__nfet_01v8_lvt_SMGWK2/a_n21 |  sky130_fd_pr__nfet_01v8_lvt_SMGWK2/a_n21 
+  sky130_fd_pr__nfet_01v8_lvt_SMGWK2/a_50_ |  sky130_fd_pr__nfet_01v8_lvt_SMGWK2/a_50_ 
+  sky130_fd_pr__nfet_01v8_lvt_9DW9LC/a_n17 |  sky130_fd_pr__nfet_01v8_lvt_9DW9LC/a_n17 
+  sky130_fd_pr__nfet_01v8_lvt_84HFGD/a_n17 |  sky130_fd_pr__nfet_01v8_lvt_84HFGD/a_n17 
+  sky130_fd_pr__nfet_01v8_lvt_84HFGD/a_16_ |  sky130_fd_pr__nfet_01v8_lvt_84HFGD/a_16_ 
+  sky130_fd_pr__res_xhigh_po_0p69_FR2N8V/a |  sky130_fd_pr__res_xhigh_po_0p69_FR2N8V/a 
+  sky130_fd_pr__res_xhigh_po_0p69_FR2N8V/a |  sky130_fd_pr__res_xhigh_po_0p69_FR2N8V/a 
+  sky130_fd_pr__res_high_po_2p85_HV4VUF/a_ |  sky130_fd_pr__res_high_po_2p85_HV4VUF/a_ 
+  sky130_fd_pr__nfet_01v8_lvt_8TEW3F/a_50_ |  sky130_fd_pr__nfet_01v8_lvt_8TEW3F/a_50_ 
+  sky130_fd_pr__nfet_01v8_lvt_8TEW3F/a_n21 |  sky130_fd_pr__nfet_01v8_lvt_8TEW3F/a_n21 
+  sky130_fd_pr__nfet_01v8_lvt_8TEW3F/a_n10 |  sky130_fd_pr__nfet_01v8_lvt_8TEW3F/a_n10 
+  sky130_fd_pr__nfet_01v8_Q8AFGD/a_16_n100 |  sky130_fd_pr__nfet_01v8_Q8AFGD/a_16_n100 
+  sky130_fd_pr__nfet_01v8_Q8AFGD/a_n176_n2 |  sky130_fd_pr__nfet_01v8_Q8AFGD/a_n176_n2 
+  sky130_fd_sc_hd__clkbuf_1[[0]]/VGND = 1  |  sky130_fd_sc_hd__clkdlybuf4s50_1/VNB = 1 
+  sky130_fd_sc_hd__clkbuf_1[[0]]/VNB = 1   |  sky130_fd_sc_hd__bufbuf_8/VNB = 2        
+  sky130_fd_pr__res_xhigh_po_0p35_H4KU7R/a |  sky130_fd_pr__res_xhigh_po_0p35_H4KU7R/a 
+  sky130_fd_pr__nfet_01v8_Q8AFGD/a_n74_n10 |  sky130_fd_pr__nfet_01v8_Q8AFGD/a_n74_n10 
+  sky130_fd_pr__res_xhigh_po_0p69_ET3NLF/a |  sky130_fd_pr__res_xhigh_po_0p69_ET3NLF/a 
+  sky130_fd_pr__res_xhigh_po_0p69_LVNRZ4/a |  sky130_fd_pr__res_xhigh_po_0p69_LVNRZ4/a 
+  sky130_fd_pr__res_xhigh_po_0p35_4XRDQ9/a |  sky130_fd_pr__res_xhigh_po_0p35_4XRDQ9/a 
+  sky130_fd_pr__res_xhigh_po_2p85_QPY2BD/a |  sky130_fd_pr__res_xhigh_po_2p85_QPY2BD/a 
+  sky130_fd_sc_hd__or4bb_1[[0]]/VGND = 1   |  sky130_fd_sc_hd__nand2_1/VGND = 1        
+  sky130_fd_sc_hd__or4bb_1[[0]]/VNB = 1    |  sky130_fd_sc_hd__clkdlybuf4s50_1/VGND =  
+  sky130_fd_pr__nfet_01v8/4 = 97           |  sky130_fd_pr__nfet_01v8/4 = 97           
+  sky130_fd_pr__nfet_01v8/(1|3) = 61       |  sky130_fd_pr__nfet_01v8/(1|3) = 61       
+  sky130_fd_sc_hd__bufbuf_8[[0]]/VGND = 2  |  sky130_fd_sc_hd__or4bb_1/VNB = 1         
+  sky130_fd_sc_hd__bufbuf_8[[0]]/VNB = 2   |  sky130_fd_sc_hd__or4bb_1/VGND = 1        
+  sky130_fd_sc_hd__clkdlybuf4s50_1[[0]]/VG |  sky130_fd_sc_hd__bufbuf_8/VGND = 2       
+  sky130_fd_sc_hd__clkdlybuf4s50_1[[0]]/VN |  sky130_fd_sc_hd__nand2_1/VNB = 1         
+  sky130_fd_pr__nfet_01v8_A5ES5P/a_15_n100 |  sky130_fd_pr__nfet_01v8_A5ES5P/a_15_n100 
+  sky130_fd_pr__nfet_01v8_A5ES5P/a_n175_n1 |  sky130_fd_pr__nfet_01v8_A5ES5P/a_n175_n1 
+  sky130_fd_sc_hd__nand2_1[[0]]/VGND = 1   |  sky130_fd_sc_hd__clkbuf_1/VGND = 1       
+  sky130_fd_sc_hd__nand2_1[[0]]/VNB = 1    |  sky130_fd_sc_hd__clkbuf_1/VNB = 1        
+  quadgen/gnd = 1                          |  quadgen/gnd = 1                          
+  sky130_fd_sc_hd__clkbuf_16/VGND = 2      |  sky130_fd_sc_hd__clkbuf_16/VGND = 2      
+  sky130_fd_sc_hd__clkbuf_16/VNB = 2       |  sky130_fd_sc_hd__clkbuf_16/VNB = 2       
+---------------------------------------------------------------------------------------
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Net: opamp:12/m1_n540_3980#                                                       |Net: /opamp_2/m1_n540_3980#                                                       
-  sky130_fd_pr__pfet_01v8_lvt/2 = 3                                               |  sky130_fd_pr__pfet_01v8_lvt/2 = 3                                               
-  sky130_fd_pr__pfet_01v8_lvt/(1|3) = 1                                           |  sky130_fd_pr__pfet_01v8_lvt/(1|3) = 1                                           
-  sky130_fd_pr__res_xhigh_po_0p69/(1|2) = 1                                       |  sky130_fd_pr__res_xhigh_po/(1|2) = 1                                            
-                                                                                  |                                                                                  
-Net: opamp:16/m1_n540_3980#                                                       |Net: /opamp_1/m1_n540_3980#                                                       
-  sky130_fd_pr__pfet_01v8_lvt/2 = 3                                               |  sky130_fd_pr__pfet_01v8_lvt/2 = 3                                               
-  sky130_fd_pr__pfet_01v8_lvt/(1|3) = 1                                           |  sky130_fd_pr__pfet_01v8_lvt/(1|3) = 1                                           
-  sky130_fd_pr__res_xhigh_po_0p69/(1|2) = 1                                       |  sky130_fd_pr__res_xhigh_po/(1|2) = 1                                            
-                                                                                  |                                                                                  
-Net: opamp:15/m1_n540_3980#                                                       |Net: /opamp_0/m1_n540_3980#                                                       
-  sky130_fd_pr__pfet_01v8_lvt/2 = 3                                               |  sky130_fd_pr__pfet_01v8_lvt/2 = 3                                               
-  sky130_fd_pr__pfet_01v8_lvt/(1|3) = 1                                           |  sky130_fd_pr__pfet_01v8_lvt/(1|3) = 1                                           
-  sky130_fd_pr__res_xhigh_po_0p69/(1|2) = 1                                       |  sky130_fd_pr__res_xhigh_po/(1|2) = 1                                            
-                                                                                  |                                                                                  
-Net: FILT_2_PH                                                                    |Net: opamp_1/output                                                               
-  sky130_fd_pr__res_xhigh_po_0p35/(1|2) = 1                                       |  sky130_fd_pr__nfet_01v8_lvt_SMGWK2/a_n50_n488# = 1                              
-  sky130_fd_pr__nfet_01v8_lvt/(1|3) = 1                                           |  sky130_fd_pr__res_xhigh_po/(1|2) = 1                                            
-  sky130_fd_pr__cap_mim_m3_1/1 = 1                                                |  sky130_fd_pr__nfet_01v8_lvt/(1|3) = 1                                           
-  sky130_fd_pr__pfet_01v8_lvt/(1|3) = 1                                           |  sky130_fd_pr__cap_mim_m3_1/1 = 1                                                
-  sky130_fd_pr__nfet_01v8_lvt_SMGWK2/a_n50_n488# = 1                              |  sky130_fd_pr__pfet_01v8_lvt/(1|3) = 1                                           
----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------
+Net: MIX_C                                 |Net: gilbert_1/LO+                         
+  sky130_fd_pr__nfet_01v8_lvt_84HFGD/a_n33 |  sky130_fd_pr__nfet_01v8_lvt_84HFGD/a_n33 
+  quadgen/outc = 1                         |  quadgen/outc = 1                         
+---------------------------------------------------------------------------------------
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Net: NB                                                                           |Net: filter_1/pb                                                                  
-  sky130_fd_pr__nfet_01v8_lvt/(1|3) = 1                                           |  sky130_fd_pr__res_xhigh_po/(1|2) = 1                                            
-  sky130_fd_pr__nfet_01v8_lvt/2 = 1                                               |  sky130_fd_pr__cap_mim_m3_1/1 = 1                                                
-  sky130_fd_pr__cap_mim_m3_1/1 = 1                                                |  sky130_fd_pr__pfet_01v8_lvt/2 = 9                                               
-  sky130_fd_pr__res_xhigh_po_0p35/(1|2) = 1                                       |  sky130_fd_pr__pfet_01v8_lvt/(1|3) = 1                                           
-  sky130_fd_pr__nfet_01v8_lvt_SMGWK2/a_n50_n488# = 6                              |                                                                                  
-  sky130_fd_pr__nfet_01v8_lvt_84HFGD/a_n33_n588# = 2                              |                                                                                  
-                                                                                  |                                                                                  
-Net: PB                                                                           |Net: gilbert_1/NB                                                                 
-  sky130_fd_pr__pfet_01v8_lvt/2 = 9                                               |  sky130_fd_pr__nfet_01v8_lvt_SMGWK2/a_n50_n488# = 6                              
-  sky130_fd_pr__pfet_01v8_lvt/(1|3) = 1                                           |  sky130_fd_pr__res_xhigh_po/(1|2) = 1                                            
-  sky130_fd_pr__cap_mim_m3_1/1 = 1                                                |  sky130_fd_pr__nfet_01v8_lvt/2 = 1                                               
-  sky130_fd_pr__res_xhigh_po_0p35/(1|2) = 1                                       |  sky130_fd_pr__nfet_01v8_lvt/(1|3) = 1                                           
-                                                                                  |  sky130_fd_pr__cap_mim_m3_1/1 = 1                                                
-                                                                                  |  sky130_fd_pr__nfet_01v8_lvt_84HFGD/a_n33_n588# = 2                              
----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------
+Net: MIX_D                                 |Net: gilbert_1/LO-                         
+  sky130_fd_pr__nfet_01v8_lvt_84HFGD/a_n33 |  sky130_fd_pr__nfet_01v8_lvt_84HFGD/a_n33 
+  quadgen/outd = 1                         |  quadgen/outd = 1                         
+---------------------------------------------------------------------------------------
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Net: vdda1                                                                        |Net: vdda1                                                                        
-  sky130_fd_pr__cap_mim_m3_1/1 = 1                                                |  sky130_fd_pr__cap_mim_m3_1/1 = 1                                                
-  sky130_fd_pr__pfet_01v8_lvt/(1|3) = 31                                          |  sky130_fd_pr__pfet_01v8_lvt/(1|3) = 31                                          
-  sky130_fd_pr__pfet_01v8_lvt/4 = 51                                              |  sky130_fd_pr__pfet_01v8_lvt/4 = 51                                              
-  sky130_fd_pr__res_xhigh_po_5p73/(1|2) = 1                                       |  sky130_fd_pr__res_xhigh_po/(1|2) = 3                                            
-  quadgen/vcc = 1                                                                 |  quadgen/vcc = 1                                                                 
-  sky130_fd_pr__pfet_01v8_hvt/(1|3) = 72                                          |  sky130_fd_pr__pfet_01v8_hvt/(1|3) = 72                                          
-  sky130_fd_pr__pfet_01v8_hvt/4 = 96                                              |  sky130_fd_pr__pfet_01v8_hvt/4 = 96                                              
-  sky130_fd_sc_hd__clkdlybuf4s50_1[[0]]/VPWR = 1                                  |  sky130_fd_sc_hd__or4bb_1/VPWR = 1                                               
-  sky130_fd_sc_hd__or4bb_1[[0]]/VPWR = 1                                          |  sky130_fd_sc_hd__or4bb_1/VPB = 1                                                
-  sky130_fd_sc_hd__or4bb_1[[0]]/VPB = 1                                           |  sky130_fd_sc_hd__bufbuf_8/VPWR = 2                                              
-  sky130_fd_sc_hd__clkbuf_1[[0]]/VPB = 1                                          |  sky130_fd_sc_hd__bufbuf_8/VPB = 2                                               
-  sky130_fd_sc_hd__bufbuf_8[[0]]/VPB = 2                                          |  sky130_fd_sc_hd__clkdlybuf4s50_1/VPWR = 1                                       
-  sky130_fd_sc_hd__bufbuf_8[[0]]/VPWR = 2                                         |  sky130_fd_sc_hd__clkdlybuf4s50_1/VPB = 1                                        
-  sky130_fd_pr__pfet_01v8/(1|3) = 8                                               |  sky130_fd_pr__pfet_01v8/(1|3) = 8                                               
-  sky130_fd_pr__pfet_01v8/4 = 13                                                  |  sky130_fd_pr__pfet_01v8/4 = 13                                                  
-  sky130_fd_sc_hd__clkdlybuf4s50_1[[0]]/VPB = 1                                   |  sky130_fd_sc_hd__nand2_1/VPWR = 1                                               
-  sky130_fd_sc_hd__nand2_1[[0]]/VPWR = 1                                          |  sky130_fd_sc_hd__nand2_1/VPB = 1                                                
-  sky130_fd_sc_hd__clkbuf_16/VPB = 2                                              |  sky130_fd_sc_hd__clkbuf_16/VPB = 2                                              
-  sky130_fd_sc_hd__clkbuf_16/VPWR = 2                                             |  sky130_fd_sc_hd__clkbuf_16/VPWR = 2                                             
-  sky130_fd_sc_hd__clkbuf_1[[0]]/VPWR = 1                                         |  sky130_fd_sc_hd__clkbuf_1/VPWR = 1                                              
-  sky130_fd_sc_hd__nand2_1[[0]]/VPB = 1                                           |  sky130_fd_sc_hd__clkbuf_1/VPB = 1                                               
-  sky130_fd_pr__cap_mim_m3_1/2 = 1                                                |  sky130_fd_pr__cap_mim_m3_1/2 = 1                                                
-  sky130_fd_pr__res_xhigh_po_0p35/(1|2) = 2                                       |                                                                                  
----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------
+Net: gilbert:14/m1_n3965_n185#             |Net: /gilbert_1/m1_n3965_n185#             
+  sky130_fd_pr__nfet_01v8_lvt_9DW9LC/a_n74 |  sky130_fd_pr__nfet_01v8_lvt_9DW9LC/a_n74 
+  sky130_fd_pr__nfet_01v8_lvt_84HFGD/a_16_ |  sky130_fd_pr__nfet_01v8_lvt_84HFGD/a_16_ 
+  sky130_fd_pr__nfet_01v8_lvt_84HFGD/a_n74 |  sky130_fd_pr__nfet_01v8_lvt_84HFGD/a_n74 
+---------------------------------------------------------------------------------------
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Net: vssd1                                                                        |Net: vssd1                                                                        
-  sky130_fd_pr__cap_mim_m3_1/2 = 8                                                |  sky130_fd_pr__cap_mim_m3_1/2 = 8                                                
-  sky130_fd_pr__nfet_01v8_lvt_SMGWK2/a_n210_n574# = 18                            |  sky130_fd_pr__nfet_01v8_lvt_SMGWK2/a_n210_n574# = 18                            
-  sky130_fd_pr__nfet_01v8_lvt_SMGWK2/a_50_n400# = 6                               |  sky130_fd_pr__nfet_01v8_lvt_SMGWK2/a_50_n400# = 6                               
-  sky130_fd_sc_hd__bufbuf_8[[0]]/VGND = 2                                         |  sky130_fd_pr__res_xhigh_po/(1|2) = 5                                            
-  sky130_fd_sc_hd__clkdlybuf4s50_1[[0]]/VGND = 1                                  |  sky130_fd_pr__res_xhigh_po/3 = 27                                               
-  quadgen/gnd = 1                                                                 |  quadgen/gnd = 1                                                                 
-  sky130_fd_pr__nfet_01v8_lvt/(1|3) = 5                                           |  sky130_fd_pr__nfet_01v8_lvt/(1|3) = 5                                           
-  sky130_fd_pr__nfet_01v8_lvt/4 = 5                                               |  sky130_fd_pr__nfet_01v8_lvt/4 = 5                                               
-  sky130_fd_pr__nfet_01v8/4 = 97                                                  |  sky130_fd_pr__nfet_01v8/4 = 97                                                  
-  sky130_fd_pr__nfet_01v8/(1|3) = 61                                              |  sky130_fd_pr__nfet_01v8/(1|3) = 61                                              
-  sky130_fd_pr__res_xhigh_po_5p73/3 = 3                                           |  sky130_fd_sc_hd__or4bb_1/VGND = 1                                               
-  sky130_fd_sc_hd__or4bb_1[[0]]/VNB = 1                                           |  sky130_fd_sc_hd__or4bb_1/VNB = 1                                                
-  sky130_fd_pr__res_xhigh_po_5p73/(1|2) = 1                                       |  sky130_fd_sc_hd__bufbuf_8/VGND = 2                                              
-  sky130_fd_pr__res_xhigh_po_0p35/(1|2) = 1                                       |  sky130_fd_sc_hd__bufbuf_8/VNB = 2                                               
-  sky130_fd_pr__res_xhigh_po_0p69/(1|2) = 3                                       |  sky130_fd_sc_hd__clkdlybuf4s50_1/VGND = 1                                       
-  sky130_fd_pr__res_xhigh_po_0p69/3 = 6                                           |  sky130_fd_sc_hd__clkdlybuf4s50_1/VNB = 1                                        
-  sky130_fd_pr__nfet_01v8_A5ES5P/a_15_n1000# = 1                                  |  sky130_fd_pr__nfet_01v8_A5ES5P/a_15_n1000# = 1                                  
-  sky130_fd_pr__nfet_01v8_A5ES5P/a_n175_n1174# = 1                                |  sky130_fd_pr__nfet_01v8_A5ES5P/a_n175_n1174# = 1                                
-  sky130_fd_sc_hd__clkbuf_1[[0]]/VNB = 1                                          |  sky130_fd_sc_hd__nand2_1/VGND = 1                                               
-  sky130_fd_sc_hd__clkbuf_1[[0]]/VGND = 1                                         |  sky130_fd_sc_hd__nand2_1/VNB = 1                                                
-  sky130_fd_pr__pfet_01v8_lvt/(1|3) = 4                                           |  sky130_fd_pr__pfet_01v8_lvt/(1|3) = 4                                           
-  sky130_fd_sc_hd__bufbuf_8[[0]]/VNB = 2                                          |  sky130_fd_pr__res_high_po/3 = 3                                                 
-  sky130_fd_pr__nfet_01v8_lvt_8TEW3F/a_50_n500# = 3                               |  sky130_fd_pr__nfet_01v8_lvt_8TEW3F/a_50_n500# = 3                               
-  sky130_fd_pr__nfet_01v8_lvt_8TEW3F/a_n210_n674# = 6                             |  sky130_fd_pr__nfet_01v8_lvt_8TEW3F/a_n210_n674# = 6                             
-  sky130_fd_pr__nfet_01v8_lvt_8TEW3F/a_n108_n500# = 3                             |  sky130_fd_pr__nfet_01v8_lvt_8TEW3F/a_n108_n500# = 3                             
-  sky130_fd_sc_hd__clkbuf_16/VGND = 2                                             |  sky130_fd_sc_hd__clkbuf_16/VGND = 2                                             
-  sky130_fd_sc_hd__clkbuf_16/VNB = 2                                              |  sky130_fd_sc_hd__clkbuf_16/VNB = 2                                              
-  sky130_fd_pr__nfet_01v8_lvt_9DW9LC/a_n176_n1174# = 4                            |  sky130_fd_pr__nfet_01v8_lvt_9DW9LC/a_n176_n1174# = 4                            
-  sky130_fd_pr__nfet_01v8_lvt_84HFGD/a_n176_n674# = 10                            |  sky130_fd_pr__nfet_01v8_lvt_84HFGD/a_n176_n674# = 10                            
-  sky130_fd_pr__nfet_01v8_lvt_84HFGD/a_16_n500# = 2                               |  sky130_fd_pr__nfet_01v8_lvt_84HFGD/a_16_n500# = 2                               
-  sky130_fd_pr__nfet_01v8_Q8AFGD/a_16_n100# = 6                                   |  sky130_fd_pr__nfet_01v8_Q8AFGD/a_16_n100# = 6                                   
-  sky130_fd_pr__nfet_01v8_Q8AFGD/a_n176_n274# = 12                                |  sky130_fd_pr__nfet_01v8_Q8AFGD/a_n176_n274# = 12                                
-  sky130_fd_pr__cap_mim_m3_1/1 = 6                                                |  sky130_fd_pr__cap_mim_m3_1/1 = 6                                                
-  sky130_fd_sc_hd__clkdlybuf4s50_1[[0]]/VNB = 1                                   |  sky130_fd_sc_hd__clkbuf_1/VGND = 1                                              
-  sky130_fd_pr__res_high_po_2p85/3 = 3                                            |  sky130_fd_sc_hd__clkbuf_1/VNB = 1                                               
-  sky130_fd_pr__nfet_01v8_Q8AFGD/a_n74_n100# = 1                                  |  sky130_fd_pr__nfet_01v8_Q8AFGD/a_n74_n100# = 1                                  
-  sky130_fd_sc_hd__nand2_1[[0]]/VGND = 1                                          |                                                                                  
-  sky130_fd_sc_hd__nand2_1[[0]]/VNB = 1                                           |                                                                                  
-  sky130_fd_pr__res_xhigh_po_0p35/3 = 16                                          |                                                                                  
-  sky130_fd_pr__res_xhigh_po_2p85/3 = 2                                           |                                                                                  
-  sky130_fd_sc_hd__or4bb_1[[0]]/VGND = 1                                          |                                                                                  
----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------
+Net: gilbert:14/m1_n1565_n185#             |Net: /gilbert_1/m1_n1565_n185#             
+  sky130_fd_pr__nfet_01v8_lvt_84HFGD/a_16_ |  sky130_fd_pr__nfet_01v8_lvt_84HFGD/a_16_ 
+  sky130_fd_pr__nfet_01v8_lvt_9DW9LC/a_16_ |  sky130_fd_pr__nfet_01v8_lvt_9DW9LC/a_16_ 
+  sky130_fd_pr__nfet_01v8_lvt_84HFGD/a_n74 |  sky130_fd_pr__nfet_01v8_lvt_84HFGD/a_n74 
+---------------------------------------------------------------------------------------
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Net: vco:4/m1_n2285_5065#                                                         |Net: /vco_0/m1_n2285_5065#                                                        
-  sky130_fd_pr__res_xhigh_po_0p69/(1|2) = 1                                       |  sky130_fd_pr__res_xhigh_po/(1|2) = 1                                            
-  sky130_fd_pr__pfet_01v8_lvt/(1|3) = 1                                           |  sky130_fd_pr__pfet_01v8_lvt/(1|3) = 1                                           
-                                                                                  |                                                                                  
-Net: opamp:12/m1_3740_2320#                                                       |Net: /opamp_2/m1_3740_2320#                                                       
-  sky130_fd_pr__res_high_po_2p85/(1|2) = 1                                        |  sky130_fd_pr__res_high_po/(1|2) = 1                                             
-  sky130_fd_pr__cap_mim_m3_1/2 = 1                                                |  sky130_fd_pr__cap_mim_m3_1/2 = 1                                                
-                                                                                  |                                                                                  
-Net: opamp:16/m1_3740_2320#                                                       |Net: /opamp_1/m1_3740_2320#                                                       
-  sky130_fd_pr__res_high_po_2p85/(1|2) = 1                                        |  sky130_fd_pr__res_high_po/(1|2) = 1                                             
-  sky130_fd_pr__cap_mim_m3_1/2 = 1                                                |  sky130_fd_pr__cap_mim_m3_1/2 = 1                                                
-                                                                                  |                                                                                  
-Net: opamp:15/m1_3740_2320#                                                       |Net: /opamp_0/m1_3740_2320#                                                       
-  sky130_fd_pr__res_high_po_2p85/(1|2) = 1                                        |  sky130_fd_pr__res_high_po/(1|2) = 1                                             
-  sky130_fd_pr__cap_mim_m3_1/2 = 1                                                |  sky130_fd_pr__cap_mim_m3_1/2 = 1                                                
----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------
+Net: filter:18/m1_21449_n33397#            |Net: /filter_1/m1_21449_n33397#            
+  sky130_fd_pr__res_xhigh_po_0p35_4XRDQ9/a |  sky130_fd_pr__res_xhigh_po_0p35_4XRDQ9/a 
+  sky130_fd_pr__res_xhigh_po_2p85_QPY2BD/a |  sky130_fd_pr__res_xhigh_po_2p85_QPY2BD/a 
+  sky130_fd_pr__cap_mim_m3_1/1 = 1         |  sky130_fd_pr__cap_mim_m3_1/1 = 1         
+---------------------------------------------------------------------------------------
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Net: gpio_analog[11]                                                              |Net: gpio_analog[11]                                                              
-  sky130_fd_pr__nfet_01v8_lvt_SMGWK2/a_n50_n488# = 3                              |  sky130_fd_pr__nfet_01v8_lvt_SMGWK2/a_n50_n488# = 3                              
-  sky130_fd_pr__cap_mim_m3_1/1 = 1                                                |  sky130_fd_pr__cap_mim_m3_1/1 = 1                                                
-  sky130_fd_pr__res_xhigh_po_0p35/(1|2) = 9                                       |  sky130_fd_pr__res_xhigh_po/(1|2) = 11                                           
-  sky130_fd_pr__nfet_01v8_lvt_9DW9LC/a_n33_n1088# = 2                             |  sky130_fd_pr__nfet_01v8_lvt_9DW9LC/a_n33_n1088# = 2                             
-  sky130_fd_pr__cap_mim_m3_1/2 = 1                                                |  sky130_fd_pr__cap_mim_m3_1/2 = 1                                                
-  sky130_fd_pr__res_xhigh_po_5p73/(1|2) = 2                                       |                                                                                  
----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------
+Net: filter:17/m1_21449_n33397#            |Net: /filter_0/m1_21449_n33397#            
+  sky130_fd_pr__res_xhigh_po_0p35_4XRDQ9/a |  sky130_fd_pr__res_xhigh_po_0p35_4XRDQ9/a 
+  sky130_fd_pr__res_xhigh_po_2p85_QPY2BD/a |  sky130_fd_pr__res_xhigh_po_2p85_QPY2BD/a 
+  sky130_fd_pr__cap_mim_m3_1/1 = 1         |  sky130_fd_pr__cap_mim_m3_1/1 = 1         
+---------------------------------------------------------------------------------------
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Net: phasecmp:5/m1_5220_n910#                                                     |Net: /phasecmp_0/m1_5220_n910#                                                    
-  sky130_fd_pr__res_xhigh_po_5p73/(1|2) = 1                                       |  sky130_fd_pr__res_xhigh_po/(1|2) = 1                                            
-  sky130_fd_pr__pfet_01v8/(1|3) = 1                                               |  sky130_fd_pr__pfet_01v8/(1|3) = 1                                               
-  sky130_fd_pr__nfet_01v8_A5ES5P/a_n73_n1000# = 1                                 |  sky130_fd_pr__nfet_01v8_A5ES5P/a_n73_n1000# = 1                                 
-                                                                                  |                                                                                  
-Net: net13                                                                        |Net: opamp_2/noninv                                                               
-  sky130_fd_pr__nfet_01v8_lvt_SMGWK2/a_n50_n488# = 1                              |  sky130_fd_pr__pfet_01v8_lvt/2 = 1                                               
-  sky130_fd_pr__cap_mim_m3_1/1 = 1                                                |  sky130_fd_pr__cap_mim_m3_1/1 = 1                                                
-  sky130_fd_pr__res_xhigh_po_0p35/(1|2) = 1                                       |  sky130_fd_pr__res_xhigh_po/(1|2) = 1                                            
-                                                                                  |                                                                                  
-Net: net14                                                                        |Net: opamp_0/noninv                                                               
-  sky130_fd_pr__pfet_01v8_lvt/2 = 1                                               |  sky130_fd_pr__pfet_01v8_lvt/2 = 1                                               
-  sky130_fd_pr__cap_mim_m3_1/1 = 1                                                |  sky130_fd_pr__res_xhigh_po/(1|2) = 1                                            
-  sky130_fd_pr__res_xhigh_po_0p35/(1|2) = 1                                       |  sky130_fd_pr__cap_mim_m3_1/1 = 1                                                
-                                                                                  |                                                                                  
-Net: net15                                                                        |Net: m4_64136_273264#                                                             
-  sky130_fd_pr__res_xhigh_po_0p35/(1|2) = 2                                       |  sky130_fd_pr__cap_mim_m3_1/1 = 1                                                
-  sky130_fd_pr__pfet_01v8_lvt/2 = 1                                               |  sky130_fd_pr__res_xhigh_po/(1|2) = 1                                            
-                                                                                  |  sky130_fd_pr__pfet_01v8_lvt/2 = 1                                               
-                                                                                  |                                                                                  
-Net: net2                                                                         |Net: opamp_1/inv                                                                  
-  sky130_fd_pr__pfet_01v8_lvt/2 = 1                                               |  sky130_fd_pr__res_xhigh_po/(1|2) = 2                                            
-  sky130_fd_pr__cap_mim_m3_1/1 = 1                                                |  sky130_fd_pr__pfet_01v8_lvt/2 = 1                                               
-  sky130_fd_pr__res_xhigh_po_0p35/(1|2) = 1                                       |                                                                                  
-                                                                                  |                                                                                  
-Net: net16                                                                        |Net: analogsub_2/Vminus                                                           
-  sky130_fd_pr__cap_mim_m3_1/1 = 1                                                |  sky130_fd_pr__nfet_01v8_lvt_SMGWK2/a_n50_n488# = 1                              
-  sky130_fd_pr__res_xhigh_po_0p35/(1|2) = 1                                       |  sky130_fd_pr__res_xhigh_po/(1|2) = 1                                            
-  sky130_fd_pr__pfet_01v8_lvt/2 = 1                                               |  sky130_fd_pr__cap_mim_m3_1/1 = 1                                                
----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------
+Net: net6                                  |Net: gilbert_1/IF-                         
+  sky130_fd_pr__cap_mim_m3_1/2 = 1         |  sky130_fd_pr__cap_mim_m3_1/2 = 1         
+  sky130_fd_pr__pfet_01v8_lvt/(1|3) = 1    |  sky130_fd_pr__pfet_01v8_lvt/(1|3) = 1    
+  sky130_fd_pr__nfet_01v8_lvt_84HFGD/a_16_ |  sky130_fd_pr__nfet_01v8_lvt_84HFGD/a_16_ 
+---------------------------------------------------------------------------------------
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Net: MIX_3                                                                        |(no matching net)                                                                 
-  sky130_fd_pr__cap_mim_m3_1/1 = 1                                                |                                                                                  
-  sky130_fd_pr__res_xhigh_po_0p35/(1|2) = 1                                       |                                                                                  
-  sky130_fd_pr__nfet_01v8_lvt_SMGWK2/a_n50_n488# = 1                              |                                                                                  
-                                                                                  |                                                                                  
-Net: MIX_1                                                                        |(no matching net)                                                                 
-  sky130_fd_pr__nfet_01v8_lvt_SMGWK2/a_n50_n488# = 1                              |                                                                                  
-  sky130_fd_pr__cap_mim_m3_1/1 = 1                                                |                                                                                  
-  sky130_fd_pr__res_xhigh_po_0p35/(1|2) = 1                                       |                                                                                  
----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-(no matching net)                                                                 |Net: analogsub_0/Vminus                                                           
-                                                                                  |  sky130_fd_pr__nfet_01v8_lvt_SMGWK2/a_n50_n488# = 1                              
-                                                                                  |  sky130_fd_pr__res_xhigh_po/(1|2) = 1                                            
-                                                                                  |  sky130_fd_pr__cap_mim_m3_1/1 = 1                                                
-                                                                                  |                                                                                  
-(no matching net)                                                                 |Net: analogsub_1/Vminus                                                           
-                                                                                  |  sky130_fd_pr__nfet_01v8_lvt_SMGWK2/a_n50_n488# = 1                              
-                                                                                  |  sky130_fd_pr__cap_mim_m3_1/1 = 1                                                
-                                                                                  |  sky130_fd_pr__res_xhigh_po/(1|2) = 1                                            
----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Net: MIX_C                                                                        |Net: gilbert_1/LO+                                                                
-  sky130_fd_pr__nfet_01v8_lvt_84HFGD/a_n33_n588# = 2                              |  sky130_fd_pr__nfet_01v8_lvt_84HFGD/a_n33_n588# = 2                              
-  quadgen/outc = 1                                                                |  quadgen/outc = 1                                                                
----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Net: MIX_D                                                                        |Net: gilbert_1/LO-                                                                
-  sky130_fd_pr__nfet_01v8_lvt_84HFGD/a_n33_n588# = 2                              |  sky130_fd_pr__nfet_01v8_lvt_84HFGD/a_n33_n588# = 2                              
-  quadgen/outd = 1                                                                |  quadgen/outd = 1                                                                
----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Net: gilbert:14/m1_n3965_n185#                                                    |Net: /gilbert_1/m1_n3965_n185#                                                    
-  sky130_fd_pr__nfet_01v8_lvt_9DW9LC/a_n74_n1000# = 1                             |  sky130_fd_pr__nfet_01v8_lvt_9DW9LC/a_n74_n1000# = 1                             
-  sky130_fd_pr__nfet_01v8_lvt_84HFGD/a_16_n500# = 1                               |  sky130_fd_pr__nfet_01v8_lvt_84HFGD/a_16_n500# = 1                               
-  sky130_fd_pr__nfet_01v8_lvt_84HFGD/a_n74_n500# = 1                              |  sky130_fd_pr__nfet_01v8_lvt_84HFGD/a_n74_n500# = 1                              
----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Net: gilbert:14/m1_n1565_n185#                                                    |Net: /gilbert_1/m1_n1565_n185#                                                    
-  sky130_fd_pr__nfet_01v8_lvt_84HFGD/a_16_n500# = 1                               |  sky130_fd_pr__nfet_01v8_lvt_84HFGD/a_16_n500# = 1                               
-  sky130_fd_pr__nfet_01v8_lvt_9DW9LC/a_16_n1000# = 1                              |  sky130_fd_pr__nfet_01v8_lvt_9DW9LC/a_16_n1000# = 1                              
-  sky130_fd_pr__nfet_01v8_lvt_84HFGD/a_n74_n500# = 1                              |  sky130_fd_pr__nfet_01v8_lvt_84HFGD/a_n74_n500# = 1                              
----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Net: opamp:12/li_1325_1915#                                                       |Net: /opamp_2/li_1325_1915#                                                       
-  sky130_fd_pr__nfet_01v8_lvt/2 = 1                                               |  sky130_fd_pr__nfet_01v8_lvt/2 = 1                                               
-  sky130_fd_pr__pfet_01v8_lvt/(1|3) = 1                                           |  sky130_fd_pr__pfet_01v8_lvt/(1|3) = 1                                           
-  sky130_fd_pr__res_high_po_2p85/(1|2) = 1                                        |  sky130_fd_pr__res_high_po/(1|2) = 1                                             
-  sky130_fd_pr__nfet_01v8_lvt_8TEW3F/a_50_n500# = 1                               |  sky130_fd_pr__nfet_01v8_lvt_8TEW3F/a_50_n500# = 1                               
-                                                                                  |                                                                                  
-Net: opamp:16/li_1325_1915#                                                       |Net: /opamp_1/li_1325_1915#                                                       
-  sky130_fd_pr__nfet_01v8_lvt/2 = 1                                               |  sky130_fd_pr__nfet_01v8_lvt/2 = 1                                               
-  sky130_fd_pr__pfet_01v8_lvt/(1|3) = 1                                           |  sky130_fd_pr__pfet_01v8_lvt/(1|3) = 1                                           
-  sky130_fd_pr__res_high_po_2p85/(1|2) = 1                                        |  sky130_fd_pr__res_high_po/(1|2) = 1                                             
-  sky130_fd_pr__nfet_01v8_lvt_8TEW3F/a_50_n500# = 1                               |  sky130_fd_pr__nfet_01v8_lvt_8TEW3F/a_50_n500# = 1                               
-                                                                                  |                                                                                  
-Net: opamp:15/li_1325_1915#                                                       |Net: /opamp_0/li_1325_1915#                                                       
-  sky130_fd_pr__nfet_01v8_lvt/2 = 1                                               |  sky130_fd_pr__nfet_01v8_lvt/2 = 1                                               
-  sky130_fd_pr__pfet_01v8_lvt/(1|3) = 1                                           |  sky130_fd_pr__pfet_01v8_lvt/(1|3) = 1                                           
-  sky130_fd_pr__res_high_po_2p85/(1|2) = 1                                        |  sky130_fd_pr__res_high_po/(1|2) = 1                                             
-  sky130_fd_pr__nfet_01v8_lvt_8TEW3F/a_50_n500# = 1                               |  sky130_fd_pr__nfet_01v8_lvt_8TEW3F/a_50_n500# = 1                               
-                                                                                  |                                                                                  
-Net: IN_1                                                                         |Net: gilbert_1/RF+                                                                
-  sky130_fd_pr__cap_mim_m3_1/1 = 1                                                |  sky130_fd_pr__cap_mim_m3_1/1 = 1                                                
-  sky130_fd_pr__res_xhigh_po_0p35/(1|2) = 1                                       |  sky130_fd_pr__res_xhigh_po/(1|2) = 1                                            
-  sky130_fd_pr__nfet_01v8_lvt_9DW9LC/a_n33_n1088# = 2                             |  sky130_fd_pr__nfet_01v8_lvt_9DW9LC/a_n33_n1088# = 2                             
----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Net: net7                                                                         |Net: gilbert_0/IF-                                                                
-  sky130_fd_pr__cap_mim_m3_1/2 = 1                                                |  sky130_fd_pr__cap_mim_m3_1/2 = 1                                                
-  sky130_fd_pr__pfet_01v8_lvt/(1|3) = 1                                           |  sky130_fd_pr__pfet_01v8_lvt/(1|3) = 1                                           
-  sky130_fd_pr__nfet_01v8_lvt_84HFGD/a_16_n500# = 2                               |  sky130_fd_pr__nfet_01v8_lvt_84HFGD/a_16_n500# = 2                               
-                                                                                  |                                                                                  
-Net: net6                                                                         |Net: gilbert_1/IF-                                                                
-  sky130_fd_pr__cap_mim_m3_1/2 = 1                                                |  sky130_fd_pr__cap_mim_m3_1/2 = 1                                                
-  sky130_fd_pr__pfet_01v8_lvt/(1|3) = 1                                           |  sky130_fd_pr__pfet_01v8_lvt/(1|3) = 1                                           
-  sky130_fd_pr__nfet_01v8_lvt_84HFGD/a_16_n500# = 2                               |  sky130_fd_pr__nfet_01v8_lvt_84HFGD/a_16_n500# = 2                               
----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Net: net10                                                                        |Net: gilbert_1/IF+                                                                
-  sky130_fd_pr__cap_mim_m3_1/2 = 1                                                |  sky130_fd_pr__cap_mim_m3_1/2 = 1                                                
-  sky130_fd_pr__nfet_01v8_lvt_84HFGD/a_n74_n500# = 2                              |  sky130_fd_pr__nfet_01v8_lvt_84HFGD/a_n74_n500# = 2                              
-  sky130_fd_pr__pfet_01v8_lvt/(1|3) = 1                                           |  sky130_fd_pr__pfet_01v8_lvt/(1|3) = 1                                           
----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Net: net11                                                                        |Net: gilbert_0/IF+                                                                
-  sky130_fd_pr__cap_mim_m3_1/2 = 1                                                |  sky130_fd_pr__cap_mim_m3_1/2 = 1                                                
-  sky130_fd_pr__nfet_01v8_lvt_84HFGD/a_n74_n500# = 2                              |  sky130_fd_pr__nfet_01v8_lvt_84HFGD/a_n74_n500# = 2                              
-  sky130_fd_pr__pfet_01v8_lvt/(1|3) = 1                                           |  sky130_fd_pr__pfet_01v8_lvt/(1|3) = 1                                           
----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------
+Net: net10                                 |Net: gilbert_1/IF+                         
+  sky130_fd_pr__cap_mim_m3_1/2 = 1         |  sky130_fd_pr__cap_mim_m3_1/2 = 1         
+  sky130_fd_pr__nfet_01v8_lvt_84HFGD/a_n74 |  sky130_fd_pr__nfet_01v8_lvt_84HFGD/a_n74 
+  sky130_fd_pr__pfet_01v8_lvt/(1|3) = 1    |  sky130_fd_pr__pfet_01v8_lvt/(1|3) = 1    
+---------------------------------------------------------------------------------------
 DEVICE mismatches: Class fragments follow (with node fanout counts):
-Circuit 1: mpw8                                                                   |Circuit 2: mpw8_mag                                                               
+Circuit 1: mpw8                            |Circuit 2: mpw8_mag                        
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Instance: sky130_fd_pr__res_xhigh_po_0p35:R39                                     |Instance: sky130_fd_pr__res_xhigh_po_0p35_R9FY7S_1/sky130_fd_pr__res_xhigh_po:0   
-  (1,2) = (293,12)                                                                |  (1,2) = (311,12)                                                                
-  3 = 311                                                                         |  3 = 311                                                                         
-                                                                                  |                                                                                  
-Instance: sky130_fd_pr__res_xhigh_po_0p35:R27                                     |Instance: sky130_fd_pr__res_xhigh_po_0p35_R9FY7S_0/sky130_fd_pr__res_xhigh_po:0   
-  (1,2) = (311,12)                                                                |  (1,2) = (293,12)                                                                
-  3 = 311                                                                         |  3 = 311                                                                         
-                                                                                  |                                                                                  
-Instance: sky130_fd_pr__res_xhigh_po_0p35:R33                                     |Instance: phasecmp_0/sky130_fd_pr__res_xhigh_po_5p73_WAQYE6:XR17/sky130_fd_pr__re 
-  (1,2) = (18,3)                                                                  |  (1,2) = (3,1)                                                                   
-  3 = 311                                                                         |  3 = 311                                                                         
-                                                                                  |                                                                                  
-Instance: sky130_fd_pr__res_xhigh_po_0p35:R31                                     |Instance: sky130_fd_pr__res_xhigh_po_0p35_LU79P3_1/sky130_fd_pr__res_xhigh_po:0   
-  (1,2) = (18,3)                                                                  |  (1,2) = (6,3)                                                                   
-  3 = 311                                                                         |  3 = 311                                                                         
-                                                                                  |                                                                                  
-Instance: sky130_fd_pr__res_xhigh_po_0p35:R25                                     |Instance: sky130_fd_pr__res_xhigh_po_0p35_LU79P3_0/sky130_fd_pr__res_xhigh_po:0   
-  (1,2) = (18,3)                                                                  |  (1,2) = (5,3)                                                                   
-  3 = 311                                                                         |  3 = 311                                                                         
-                                                                                  |                                                                                  
-Instance: sky130_fd_pr__res_xhigh_po_0p35:R13                                     |Instance: sky130_fd_pr__res_xhigh_po_0p35_G3F5X4_0/sky130_fd_pr__res_xhigh_po:0   
-  (1,2) = (18,3)                                                                  |  (1,2) = (18,3)                                                                  
-  3 = 311                                                                         |  3 = 311                                                                         
-                                                                                  |                                                                                  
-Instance: sky130_fd_pr__res_xhigh_po_0p35:R32                                     |Instance: sky130_fd_pr__res_xhigh_po_0p35_G3F5X4_6/sky130_fd_pr__res_xhigh_po:0   
-  (1,2) = (18,4)                                                                  |  (1,2) = (18,3)                                                                  
-  3 = 311                                                                         |  3 = 311                                                                         
-                                                                                  |                                                                                  
-Instance: sky130_fd_pr__res_xhigh_po_0p35:R36                                     |Instance: sky130_fd_pr__res_xhigh_po_0p35_G3F5X4_7/sky130_fd_pr__res_xhigh_po:0   
-  (1,2) = (5,3)                                                                   |  (1,2) = (18,3)                                                                  
-  3 = 311                                                                         |  3 = 311                                                                         
-                                                                                  |                                                                                  
-Instance: sky130_fd_pr__res_xhigh_po_0p35:R22                                     |Instance: sky130_fd_pr__res_xhigh_po_0p35_ZSYV2F_0/sky130_fd_pr__res_xhigh_po:0   
-  (1,2) = (6,3)                                                                   |  (1,2) = (18,3)                                                                  
-  3 = 311                                                                         |  3 = 311                                                                         
-                                                                                  |                                                                                  
-Instance: vco:4/sky130_fd_pr__res_xhigh_po_0p35_H4KU7R:XR40/sky130_fd_pr__res_xhi |Instance: sky130_fd_pr__res_xhigh_po_0p35_G3F5X4_1/sky130_fd_pr__res_xhigh_po:0   
-  (1,2) = (293,10)                                                                |  (1,2) = (18,4)                                                                  
-  3 = 311                                                                         |  3 = 311                                                                         
-                                                                                  |                                                                                  
-Instance: sky130_fd_pr__res_xhigh_po_5p73:R5                                      |Instance: sky130_fd_pr__res_xhigh_po_5p73_P7BAXV_0/sky130_fd_pr__res_xhigh_po:0   
-  (1,2) = (293,18)                                                                |  (1,2) = (293,18)                                                                
-  3 = 311                                                                         |  3 = 311                                                                         
-                                                                                  |                                                                                  
-Instance: sky130_fd_pr__res_xhigh_po_5p73:R29                                     |Instance: sky130_fd_pr__res_xhigh_po_5p73_P7BAXV_1/sky130_fd_pr__res_xhigh_po:0   
-  (1,2) = (311,18)                                                                |  (1,2) = (311,18)                                                                
-  3 = 311                                                                         |  3 = 311                                                                         
-                                                                                  |                                                                                  
-Instance: phasecmp:5/sky130_fd_pr__res_xhigh_po_5p73_WAQYE6:XR17/sky130_fd_pr__re |Instance: opamp_0/sky130_fd_pr__res_xhigh_po_0p69_FR2N8V:XR17/sky130_fd_pr__res_x 
-  (1,2) = (3,1)                                                                   |  (1,2) = (311,5)                                                                 
-  3 = 311                                                                         |  3 = 311                                                                         
-                                                                                  |                                                                                  
-Instance: opamp:15/sky130_fd_pr__res_xhigh_po_0p69_FR2N8V:XR17/sky130_fd_pr__res_ |Instance: opamp_1/sky130_fd_pr__res_xhigh_po_0p69_FR2N8V:XR17/sky130_fd_pr__res_x 
-  (1,2) = (311,5)                                                                 |  (1,2) = (311,5)                                                                 
-  3 = 311                                                                         |  3 = 311                                                                         
-                                                                                  |                                                                                  
-Instance: opamp:16/sky130_fd_pr__res_xhigh_po_0p69_FR2N8V:XR17/sky130_fd_pr__res_ |Instance: opamp_2/sky130_fd_pr__res_xhigh_po_0p69_FR2N8V:XR17/sky130_fd_pr__res_x 
-  (1,2) = (311,5)                                                                 |  (1,2) = (311,5)                                                                 
-  3 = 311                                                                         |  3 = 311                                                                         
-                                                                                  |                                                                                  
-Instance: opamp:12/sky130_fd_pr__res_xhigh_po_0p69_FR2N8V:XR17/sky130_fd_pr__res_ |Instance: vco_0/sky130_fd_pr__res_xhigh_po_0p35_H4KU7R:XR40/sky130_fd_pr__res_xhi 
-  (1,2) = (311,5)                                                                 |  (1,2) = (293,10)                                                                
-  3 = 311                                                                         |  3 = 311                                                                         
-                                                                                  |                                                                                  
-Instance: vco:4/sky130_fd_pr__res_xhigh_po_0p69_ET3NLF:XR38/sky130_fd_pr__res_xhi |Instance: vco_0/sky130_fd_pr__res_xhigh_po_0p69_ET3NLF:XR38/sky130_fd_pr__res_xhi 
-  (1,2) = (10,2)                                                                  |  (1,2) = (10,2)                                                                  
-  3 = 311                                                                         |  3 = 311                                                                         
-                                                                                  |                                                                                  
-Instance: opamp:15/sky130_fd_pr__res_high_po_2p85_HV4VUF:XR18/sky130_fd_pr__res_h |Instance: opamp_0/sky130_fd_pr__res_high_po_2p85_HV4VUF:XR18/sky130_fd_pr__res_hi 
-  (1,2) = (4,2)                                                                   |  (1,2) = (4,2)                                                                   
-  3 = 311                                                                         |  3 = 311                                                                         
-                                                                                  |                                                                                  
-Instance: opamp:16/sky130_fd_pr__res_high_po_2p85_HV4VUF:XR18/sky130_fd_pr__res_h |Instance: opamp_1/sky130_fd_pr__res_high_po_2p85_HV4VUF:XR18/sky130_fd_pr__res_hi 
-  (1,2) = (4,2)                                                                   |  (1,2) = (4,2)                                                                   
-  3 = 311                                                                         |  3 = 311                                                                         
-                                                                                  |                                                                                  
-Instance: opamp:12/sky130_fd_pr__res_high_po_2p85_HV4VUF:XR18/sky130_fd_pr__res_h |Instance: opamp_2/sky130_fd_pr__res_high_po_2p85_HV4VUF:XR18/sky130_fd_pr__res_hi 
-  (1,2) = (4,2)                                                                   |  (1,2) = (4,2)                                                                   
-  3 = 311                                                                         |  3 = 311                                                                         
----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------
+Instance: filter:18/sky130_fd_pr__res_xhig |Instance: filter_1/sky130_fd_pr__res_xhigh 
+  a_n284_950# = 3                          |  a_n284_950# = 3                          
+  a_n284_n1382# = 6                        |  a_n284_n1382# = 6                        
+  a_n414_n1512# = 311                      |  a_n414_n1512# = 311                      
+                                           |                                           
+Instance: filter:17/sky130_fd_pr__res_xhig |Instance: filter_0/sky130_fd_pr__res_xhigh 
+  a_n284_950# = 3                          |  a_n284_950# = 3                          
+  a_n284_n1382# = 6                        |  a_n284_n1382# = 6                        
+  a_n414_n1512# = 311                      |  a_n414_n1512# = 311                      
+---------------------------------------------------------------------------------------
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Instance: gilbert:14/sky130_fd_pr__nfet_01v8_lvt_84HFGD:XM9                       |Instance: gilbert_1/sky130_fd_pr__nfet_01v8_lvt_84HFGD:XM9                        
-  a_16_n500# = 3                                                                  |  a_16_n500# = 3                                                                  
-  a_n176_n674# = 311                                                              |  a_n176_n674# = 311                                                              
-  a_n74_n500# = 4                                                                 |  a_n74_n500# = 4                                                                 
-  a_n33_n588# = 3                                                                 |  a_n33_n588# = 3                                                                 
-                                                                                  |                                                                                  
-Instance: gilbert:14//sky130_fd_pr__nfet_01v8_lvt_84HFGD_0                        |Instance: gilbert_1//sky130_fd_pr__nfet_01v8_lvt_84HFGD_0                         
-  a_16_n500# = 3                                                                  |  a_16_n500# = 3                                                                  
-  a_n176_n674# = 311                                                              |  a_n176_n674# = 311                                                              
-  a_n74_n500# = 4                                                                 |  a_n74_n500# = 4                                                                 
-  a_n33_n588# = 3                                                                 |  a_n33_n588# = 3                                                                 
----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------
+Instance: gilbert:14/sky130_fd_pr__nfet_01 |Instance: gilbert_1/sky130_fd_pr__nfet_01v 
+  a_16_n500# = 3                           |  a_16_n500# = 3                           
+  a_n176_n674# = 311                       |  a_n176_n674# = 311                       
+  a_n74_n500# = 4                          |  a_n74_n500# = 4                          
+  a_n33_n588# = 3                          |  a_n33_n588# = 3                          
+                                           |                                           
+Instance: gilbert:14//sky130_fd_pr__nfet_0 |Instance: gilbert_1//sky130_fd_pr__nfet_01 
+  a_16_n500# = 3                           |  a_16_n500# = 3                           
+  a_n176_n674# = 311                       |  a_n176_n674# = 311                       
+  a_n74_n500# = 4                          |  a_n74_n500# = 4                          
+  a_n33_n588# = 3                          |  a_n33_n588# = 3                          
+---------------------------------------------------------------------------------------
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Instance: gilbert:14/sky130_fd_pr__nfet_01v8_lvt_84HFGD:XM10                      |Instance: gilbert_1/sky130_fd_pr__nfet_01v8_lvt_84HFGD:XM10                       
-  a_16_n500# = 4                                                                  |  a_16_n500# = 4                                                                  
-  a_n176_n674# = 311                                                              |  a_n176_n674# = 311                                                              
-  a_n74_n500# = 3                                                                 |  a_n74_n500# = 3                                                                 
-  a_n33_n588# = 3                                                                 |  a_n33_n588# = 3                                                                 
-                                                                                  |                                                                                  
-Instance: gilbert:14/sky130_fd_pr__nfet_01v8_lvt_84HFGD:XM11                      |Instance: gilbert_1/sky130_fd_pr__nfet_01v8_lvt_84HFGD:XM11                       
-  a_16_n500# = 4                                                                  |  a_16_n500# = 4                                                                  
-  a_n176_n674# = 311                                                              |  a_n176_n674# = 311                                                              
-  a_n74_n500# = 3                                                                 |  a_n74_n500# = 3                                                                 
-  a_n33_n588# = 3                                                                 |  a_n33_n588# = 3                                                                 
----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Instance: sky130_fd_pr__cap_mim_m3_1:C8                                           |Instance: sky130_fd_pr__cap_mim_m3_1_PUMBUM_9/sky130_fd_pr__cap_mim_m3_1:0        
-  1 = 3                                                                           |  1 = 3                                                                           
-  2 = 4                                                                           |  2 = 4                                                                           
-                                                                                  |                                                                                  
-Instance: sky130_fd_pr__cap_mim_m3_1:C21                                          |Instance: sky130_fd_pr__cap_mim_m3_1_PUMBUM_6/sky130_fd_pr__cap_mim_m3_1:0        
-  1 = 3                                                                           |  1 = 3                                                                           
-  2 = 4                                                                           |  2 = 4                                                                           
----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------
+Instance: gilbert:14/sky130_fd_pr__nfet_01 |Instance: gilbert_1/sky130_fd_pr__nfet_01v 
+  a_16_n500# = 4                           |  a_16_n500# = 4                           
+  a_n176_n674# = 311                       |  a_n176_n674# = 311                       
+  a_n74_n500# = 3                          |  a_n74_n500# = 3                          
+  a_n33_n588# = 3                          |  a_n33_n588# = 3                          
+                                           |                                           
+Instance: gilbert:14/sky130_fd_pr__nfet_01 |Instance: gilbert_1/sky130_fd_pr__nfet_01v 
+  a_16_n500# = 4                           |  a_16_n500# = 4                           
+  a_n176_n674# = 311                       |  a_n176_n674# = 311                       
+  a_n74_n500# = 3                          |  a_n74_n500# = 3                          
+  a_n33_n588# = 3                          |  a_n33_n588# = 3                          
+---------------------------------------------------------------------------------------
 Netlists do not match.
 
 Subcircuit pins:
-Circuit 1: mpw8                                                                   |Circuit 2: mpw8_mag                                                               
-----------------------------------------------------------------------------------|----------------------------------------------------------------------------------
-gpio_analog[4]                                                                    |gpio_analog[4]                                                                    
-io_in[15]                                                                         |io_in[15]                                                                         
-gpio_analog[13]                                                                   |gpio_analog[13]                                                                   
-gpio_analog[10]                                                                   |gpio_analog[10]                                                                   
-io_out[9]                                                                         |io_out[9]                                                                         
-gpio_analog[5]                                                                    |gpio_analog[5]                                                                    
-vdda1                                                                             |vdda1                                                                             
-vssd1                                                                             |vssd1                                                                             
-io_in[10]                                                                         |io_in[10]                                                                         
-gpio_analog[12]                                                                   |gpio_analog[12]                                                                   
-gpio_analog[0]                                                                    |gpio_analog[0]                                                                    
-gpio_analog[11]                                                                   |gpio_analog[11]                                                                   
-io_out[13]                                                                        |io_out[13]                                                                        
-gpio_analog[9]                                                                    |gpio_analog[9]                                                                    
-gpio_analog[1]                                                                    |gpio_analog[1]                                                                    
-proxygpio_analog[10]                                                              |proxygpio_analog[10]                                                              
-proxygpio_analog[12]                                                              |proxygpio_analog[12]                                                              
-proxygpio_analog[5]                                                               |proxygpio_analog[5]                                                               
-proxygpio_analog[9]                                                               |proxygpio_analog[9]                                                               
-proxyvdda1                                                                        |proxyvdda1                                                                        
-proxyvssd1                                                                        |proxyvssd1                                                                        
-(no matching pin)                                                                 |proxygpio_analog[11]                                                              
----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Circuit 1: mpw8                            |Circuit 2: mpw8_mag                        
+-------------------------------------------|-------------------------------------------
+io_in[15]                                  |io_in[15]                                  
+gpio_analog[4]                             |gpio_analog[4]                             
+gpio_analog[13]                            |gpio_analog[13]                            
+gpio_analog[10]                            |gpio_analog[10]                            
+io_out[9]                                  |io_out[9]                                  
+gpio_analog[5]                             |gpio_analog[5]                             
+vdda1                                      |vdda1                                      
+vssd1                                      |vssd1                                      
+io_in[10]                                  |io_in[10]                                  
+gpio_analog[12]                            |gpio_analog[12]                            
+gpio_analog[0]                             |gpio_analog[0]                             
+gpio_analog[11]                            |gpio_analog[11]                            
+io_out[13]                                 |io_out[13]                                 
+gpio_analog[9]                             |gpio_analog[9]                             
+gpio_analog[1]                             |gpio_analog[1]                             
+proxygpio_analog[10]                       |proxygpio_analog[10]                       
+proxygpio_analog[11]                       |proxygpio_analog[11]                       
+proxygpio_analog[5]                        |proxygpio_analog[5]                        
+proxygpio_analog[9]                        |proxygpio_analog[9]                        
+proxyvdda1                                 |proxyvdda1                                 
+proxyvssd1                                 |proxyvssd1                                 
+(no matching pin)                          |proxygpio_analog[12]                       
+---------------------------------------------------------------------------------------
 Cell pin lists for mpw8 and mpw8_mag altered to match.
 Device classes mpw8 and mpw8_mag are equivalent.
 
